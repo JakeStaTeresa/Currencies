@@ -1,4 +1,4 @@
-Currencies [![Build Status](https://travis-ci.org/JakeStaTeresa/Currencies.svg?branch=master)](https://travis-ci.org/JakeStaTeresa)
+Currencies [![Build Status](https://travis-ci.org/JakeStaTeresa/Currencies.svg?branch=master)](https://travis-ci.org/JakeStaTeresa/Currencies) [![Coverage Status](https://coveralls.io/repos/github/JakeStaTeresa/Currencies/badge.svg?branch=master)](https://coveralls.io/github/JakeStaTeresa/Currencies)
 ============
 
 Currencies is a collection of all sorts of useful information for every currency in the ISO 4217 standard.
