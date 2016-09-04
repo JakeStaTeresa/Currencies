@@ -1,5 +1,4 @@
-
-Currencies
+# Currencies
 [![Build Status](https://travis-ci.org/JakeStaTeresa/Currencies.svg?branch=master)](https://travis-ci.org/JakeStaTeresa)
 ============
 
