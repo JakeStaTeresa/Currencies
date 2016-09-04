@@ -1,0 +1,41 @@
+{
+  "name": "United Kingdom Pound",
+  "code": "GBP",
+  "display": "£",
+  "representations": {
+    "unicode_decimal": [
+      163
+    ],
+    "html": "&#163;"
+  },
+  "minor_unit": {
+    "name": "penny",
+    "size": "1/100",
+    "symbol": "p"
+  },
+  "central_bank": {
+    "name": "Bank of England",
+    "url": "http://www.bankofengland.co.uk"
+  },
+  "nicknames": [
+    "Pound Sterling",
+    "Sterling",
+    "Quid",
+    "Nicker"
+  ],
+  "users": [
+    "United Kingdom (UK)",
+    "England",
+    "Northern Ireland",
+    "Scotland",
+    "Wales",
+    "Falkland Islands",
+    "Gibraltar",
+    "Guernsey",
+    "Isle of Man",
+    "Jersey",
+    "Saint Helena and Ascension",
+    "South Georgia and the South Sandwich Islands",
+    "Tristan da Cunha"
+  ]
+}

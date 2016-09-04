@@ -1,0 +1,23 @@
+{
+  "name": "Oman Rial",
+  "code": "OMR",
+  "display": "﷼",
+  "representations": {
+    "unicode_decimal": [
+      65020
+    ],
+    "html": "&#65020;"
+  },
+  "minor_unit": {
+    "name": "Baisa",
+    "size": "1/1000",
+    "symbol": "bz"
+  },
+  "central_bank": {
+    "name": "Central Bank of Oman",
+    "url": "http://www.cbo-Oman.org"
+  },
+  "users": [
+    "Oman"
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "name": "Cuba Peso",
+  "code": "CUP",
+  "display": "₱",
+  "representations": {
+    "unicode_decimal": [
+      8369
+    ],
+    "html": "&#8369;"
+  },
+  "minor_unit": {
+    "name": "Centavo",
+    "size": "1/100",
+    "symbol": "¢"
+  },
+  "central_bank": {
+    "name": "",
+    "url": "http://www.bc.gob.cu/Espanol/default.asp"
+  },
+  "users": [
+    "Cuba"
+  ]
+}

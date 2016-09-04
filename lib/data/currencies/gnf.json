@@ -1,0 +1,15 @@
+{
+  "code": "GNF",
+  "name": "Guinea Franc",
+  "minor_unit": {
+    "name": "Centime",
+    "size": "1/100"
+  },
+  "central_bank": {
+    "name": "Central Bank of the Republic of Guinea",
+    "url": "http://www.bcrg-guinee.org/"
+  },
+  "users": [
+    "Guinea"
+  ]
+}

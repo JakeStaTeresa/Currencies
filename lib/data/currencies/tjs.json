@@ -1,0 +1,15 @@
+{
+  "code": "TJS",
+  "name": "Tajikistan Somoni",
+  "minor_unit": {
+    "name": "Tajikistani Somoni",
+    "size": "1/100"
+  },
+  "central_bank": {
+    "name": "Bank of Tajikistan",
+    "url": "http://www.nbt.tj/en/"
+  },
+  "users": [
+    "Tajikistan"
+  ]
+}

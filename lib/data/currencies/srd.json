@@ -1,0 +1,14 @@
+{
+  "name": "Suriname Dollar",
+  "code": "SRD",
+  "display": "$",
+  "representations": {
+    "unicode_decimal": [
+      36
+    ],
+    "html": "&#36;"
+  },
+  "users": [
+    "Suriname"
+  ]
+}

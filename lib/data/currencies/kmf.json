@@ -1,0 +1,15 @@
+{
+  "code": "KMF",
+  "name": "Comoros Franc",
+  "minor_unit": {
+    "name": "Centime",
+    "size": "1/100"
+  },
+  "central_bank": {
+    "name": "Banque Centrale des Comores",
+    "url": "http://www.banque-comores.km"
+  },
+  "users": [
+    "Comoros"
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "name": "Afghanistan Afghani",
+  "code": "AFN",
+  "display": "؋",
+  "representations": {
+    "unicode_decimal": [
+      1547
+    ],
+    "html": "&#1547;"
+  },
+  "minor_unit": {
+    "name": "Pul",
+    "size": "1/100"
+  },
+  "central_bank": {
+    "name": "Da Afghanistan Bank",
+    "url": "http://www.centralbank.gov.af"
+  },
+  "users": [
+    "Afghanistan"
+  ]
+}

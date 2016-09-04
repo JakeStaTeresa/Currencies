@@ -1,0 +1,22 @@
+{
+  "name": "Somalia Shilling",
+  "code": "SOS",
+  "display": "S",
+  "representations": {
+    "unicode_decimal": [
+      83
+    ],
+    "html": "&#83;"
+  },
+  "minor_unit": {
+    "name": "Senti",
+    "size": "1/100"
+  },
+  "central_bank": {
+    "name": "Central Bank of Somalia",
+    "url": "http://somalbanca.org"
+  },
+  "users": [
+    "Somalia"
+  ]
+}

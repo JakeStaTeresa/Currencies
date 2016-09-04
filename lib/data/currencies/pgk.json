@@ -1,0 +1,15 @@
+{
+  "code": "PGK",
+  "name": "Papua New Guinea Kina",
+  "minor_unit": {
+    "name": "Toea",
+    "size": "1/100"
+  },
+  "central_bank": {
+    "name": "Bank of Papua New Guinea",
+    "url": "http://www.bankpng.gov.pg"
+  },
+  "users": [
+    "Papua New Guinea"
+  ]
+}

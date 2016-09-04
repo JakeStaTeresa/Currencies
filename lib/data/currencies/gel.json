@@ -1,0 +1,15 @@
+{
+  "code": "GEL",
+  "name": "Georgia Lari",
+  "minor_unit": {
+    "name": "Tetri",
+    "size": "1/100"
+  },
+  "central_bank": {
+    "name": "National Bank of Georgia",
+    "url": "http://www.nbg.gov.ge"
+  },
+  "users": [
+    "Georgia"
+  ]
+}

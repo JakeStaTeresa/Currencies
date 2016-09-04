@@ -1,0 +1,19 @@
+{
+  "code": "KES",
+  "name": "Kenya Shilling",
+  "minor_unit": {
+    "name": "Cent",
+    "size": "1/100",
+    "symbol": "c"
+  },
+  "central_bank": {
+    "name": "Central Bank of Kenya",
+    "url": "http://www.centralbank.go.ke"
+  },
+  "nicknames": [
+    "Bob"
+  ],
+  "users": [
+    "Kenya"
+  ]
+}

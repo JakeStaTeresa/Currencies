@@ -1,0 +1,22 @@
+{
+  "name": "Yemen Rial",
+  "code": "YER",
+  "display": "﷼",
+  "representations": {
+    "unicode_decimal": [
+      65020
+    ],
+    "html": "&#65020;"
+  },
+  "minor_unit": {
+    "name": "Fils",
+    "size": "1/100"
+  },
+  "central_bank": {
+    "name": "Central Bank of Yemen",
+    "url": "http://www.centralbank.gov.ye"
+  },
+  "users": [
+    "Yemen"
+  ]
+}

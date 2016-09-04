@@ -1,0 +1,11 @@
+{
+  "code": "KWD",
+  "name": "Kuwait Dinar",
+  "minor_unit": {
+    "name": "Fils",
+    "size": "1/1000"
+  },
+  "users": [
+    "Kuwait"
+  ]
+}

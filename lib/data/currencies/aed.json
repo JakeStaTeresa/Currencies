@@ -1,0 +1,16 @@
+{
+  "code": "AED",
+  "name": "United Arab Emirates Dirham",
+  "minor_unit": {
+    "name": "fils",
+    "size": "1/100",
+    "symbol": "فلس"
+  },
+  "central_bank": {
+    "name": "Central Bank of the UAE",
+    "url": "http://www.centralbank.ae/en/index.php"
+  },
+  "users": [
+    "United Arab Emirates"
+  ]
+}

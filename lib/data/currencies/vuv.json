@@ -1,0 +1,11 @@
+{
+  "code": "VUV",
+  "name": "Vanuatu Vatu",
+  "central_bank": {
+    "name": "Reserve bank of Vanuatu",
+    "url": "http://www.rbv.gov.vu"
+  },
+  "users": [
+    "Vanuatu"
+  ]
+}

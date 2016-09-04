@@ -1,0 +1,23 @@
+{
+  "name": "Ghana Cedi",
+  "code": "GHS",
+  "display": "¢",
+  "representations": {
+    "unicode_decimal": [
+      162
+    ],
+    "html": "&#162;"
+  },
+  "minor_unit": {
+    "name": "Ghana Pesewa",
+    "size": "1/100",
+    "symbol": "Gp"
+  },
+  "central_bank": {
+    "name": "Bank of Ghana",
+    "url": "http://www.bog.gov.gh"
+  },
+  "users": [
+    "Ghana"
+  ]
+}

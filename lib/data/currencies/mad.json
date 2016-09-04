@@ -1,0 +1,16 @@
+{
+  "code": "MAD",
+  "name": "Morocco Dirham",
+  "minor_unit": {
+    "name": "Santim",
+    "size": "1/100"
+  },
+  "central_bank": {
+    "name": "Bank Al-Maghrib",
+    "url": "http://www.bkam.ma"
+  },
+  "users": [
+    "Morocco",
+    "Western Sahara"
+  ]
+}

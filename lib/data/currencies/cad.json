@@ -1,0 +1,29 @@
+{
+  "name": "Canada Dollar",
+  "code": "CAD",
+  "display": "$",
+  "representations": {
+    "unicode_decimal": [
+      36
+    ],
+    "html": "&#36;"
+  },
+  "minor_unit": {
+    "name": "Cent",
+    "size": "1/100",
+    "symbol": "¢"
+  },
+  "central_bank": {
+    "name": "Bank of Canada",
+    "url": "http://www.bankofcanada.ca"
+  },
+  "nicknames": [
+    "Loonie",
+    "buck (English)",
+    "Huard",
+    "piastre (French)"
+  ],
+  "users": [
+    "Canada"
+  ]
+}

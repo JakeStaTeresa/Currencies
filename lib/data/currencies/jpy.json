@@ -1,0 +1,24 @@
+{
+  "name": "Japan Yen",
+  "code": "JPY",
+  "description": "Same symbol as CNY China Yuan Renminbi.",
+  "display": "¥",
+  "representations": {
+    "unicode_decimal": [
+      165
+    ],
+    "html": "&#165;"
+  },
+  "minor_unit": {
+    "name": "Sen",
+    "size": "1/100",
+    "symbol": "sen"
+  },
+  "central_bank": {
+    "name": "Bank of Japan",
+    "url": "http://www.boj.or.jp"
+  },
+  "users": [
+    "Japan"
+  ]
+}

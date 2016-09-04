@@ -1,0 +1,24 @@
+{
+  "name": "Jamaica Dollar",
+  "code": "JMD",
+  "display": "J$",
+  "representations": {
+    "unicode_decimal": [
+      74,
+      36
+    ],
+    "html": "&#74;&#36;"
+  },
+  "minor_unit": {
+    "name": "Cent",
+    "size": "1/100",
+    "symbol": "c"
+  },
+  "central_bank": {
+    "name": "Bank of Jamaica",
+    "url": "http://www.boj.org.jm"
+  },
+  "users": [
+    "Jamaica"
+  ]
+}

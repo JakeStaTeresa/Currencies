@@ -1,0 +1,27 @@
+{
+  "name": "Brazil Real",
+  "code": "BRL",
+  "description": "This symbol is composed of two sequential characters: an upper case \"R\" followed by standard dollar sign \"$\"",
+  "display": "R$",
+  "representations": {
+    "unicode_decimal": [
+      82,
+      36
+    ],
+    "html": "&#82;&#36;"
+  },
+  "minor_unit": {
+    "name": "Centavo",
+    "size": "1/100"
+  },
+  "central_bank": {
+    "name": "Banco Central Do Brasil",
+    "url": "http://www.bcb.gov.br/?english"
+  },
+  "nicknames": [
+    "Real"
+  ],
+  "users": [
+    "Brazil"
+  ]
+}

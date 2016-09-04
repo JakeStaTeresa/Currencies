@@ -1,0 +1,15 @@
+{
+  "code": "TZS",
+  "name": "Tanzania Shilling",
+  "minor_unit": {
+    "name": "Cent",
+    "size": "1/100"
+  },
+  "central_bank": {
+    "name": "Bank of Tanzania",
+    "url": "http://www.bot-tz.org"
+  },
+  "users": [
+    "Tanzania"
+  ]
+}

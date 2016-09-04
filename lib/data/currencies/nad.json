@@ -1,0 +1,23 @@
+{
+  "name": "Namibia Dollar",
+  "code": "NAD",
+  "display": "$",
+  "representations": {
+    "unicode_decimal": [
+      36
+    ],
+    "html": "&#36;"
+  },
+  "minor_unit": {
+    "name": "Cent",
+    "size": "1/100",
+    "symbol": "c"
+  },
+  "central_bank": {
+    "name": "Bank of Namibia",
+    "url": "http://www.bon.com.na"
+  },
+  "users": [
+    "Namibia"
+  ]
+}

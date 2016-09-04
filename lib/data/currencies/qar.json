@@ -1,0 +1,22 @@
+{
+  "name": "Qatar Riyal",
+  "code": "QAR",
+  "display": "﷼",
+  "representations": {
+    "unicode_decimal": [
+      65020
+    ],
+    "html": "&#65020;"
+  },
+  "minor_unit": {
+    "name": "Dirham",
+    "size": "1/100"
+  },
+  "central_bank": {
+    "name": "Qatar Central Bank",
+    "url": "http://www.qcb.gov.qa"
+  },
+  "users": [
+    "Qatar"
+  ]
+}

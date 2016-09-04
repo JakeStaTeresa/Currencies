@@ -1,0 +1,23 @@
+{
+  "name": "Liberia Dollar",
+  "code": "LRD",
+  "display": "$",
+  "representations": {
+    "unicode_decimal": [
+      36
+    ],
+    "html": "&#36;"
+  },
+  "minor_unit": {
+    "name": "Cent",
+    "size": "1/100",
+    "symbol": "¢"
+  },
+  "central_bank": {
+    "name": "Central Bank of Liberia",
+    "url": "http://cbl.org.lr"
+  },
+  "users": [
+    "Liberia"
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "code": "ETB",
+  "name": "Ethiopia Birr",
+  "minor_unit": {
+    "name": "Santim",
+    "size": "1/100"
+  },
+  "central_bank": {
+    "name": "National Bank of Ethiopia",
+    "url": "http://www.nbe.gov.et"
+  },
+  "users": [
+    "Ethiopia",
+    "Eritrea"
+  ]
+}

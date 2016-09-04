@@ -1,0 +1,23 @@
+{
+  "name": "Turkey Lira",
+  "code": "TRY",
+  "description": "Introduced March 2012 - no font information available at this time.",
+  "minor_unit": {
+    "name": "kuruş",
+    "size": "1/100",
+    "symbol": "Kr"
+  },
+  "central_bank": {
+    "name": "Central Bank of the Republic of Turkey",
+    "url": "http://www.tcmb.gov.tr"
+  },
+  "nicknames": [
+    "Kağıt",
+    "Mangır",
+    "Papel"
+  ],
+  "users": [
+    "Turkey",
+    "North Cyprus"
+  ]
+}

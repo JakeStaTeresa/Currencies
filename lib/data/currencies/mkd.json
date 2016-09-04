@@ -1,0 +1,24 @@
+{
+  "name": "Macedonia Denar",
+  "code": "MKD",
+  "display": "ден",
+  "representations": {
+    "unicode_decimal": [
+      1076,
+      1077,
+      1085
+    ],
+    "html": "&#1076;&#1077;&#1085;"
+  },
+  "minor_unit": {
+    "name": "Deni",
+    "size": "1/100"
+  },
+  "central_bank": {
+    "name": "National Bank of the Republic of Macedonia",
+    "url": "http://www.nbrm.mk"
+  },
+  "users": [
+    "Macedonia"
+  ]
+}

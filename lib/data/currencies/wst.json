@@ -1,0 +1,15 @@
+{
+  "code": "WST",
+  "name": "Samoa Tala",
+  "minor_unit": {
+    "name": "Sene",
+    "size": "1/100"
+  },
+  "central_bank": {
+    "name": "Central Bank of Samoa",
+    "url": "http://www.cbs.gov.ws/"
+  },
+  "users": [
+    "Samoa"
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "name": "China Yuan Renminbi",
+  "code": "CNY",
+  "description": "Same symbol as JPY Japan Yen.",
+  "display": "¥",
+  "representations": {
+    "unicode_decimal": [
+      165
+    ],
+    "html": "&#165;"
+  },
+  "minor_unit": {
+    "name": "Jiao",
+    "size": "1/10",
+    "symbol": "角"
+  },
+  "central_bank": {
+    "name": "People's Bank of China",
+    "url": "http://www.pbc.gov.cn"
+  },
+  "nicknames": [
+    "kuài",
+    "Mao"
+  ],
+  "users": [
+    "China"
+  ]
+}

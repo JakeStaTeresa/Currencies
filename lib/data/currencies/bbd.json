@@ -1,0 +1,22 @@
+{
+  "name": "Barbados Dollar",
+  "code": "BBD",
+  "display": "$",
+  "representations": {
+    "unicode_decimal": [
+      36
+    ],
+    "html": "&#36;"
+  },
+  "minor_unit": {
+    "name": "Cent",
+    "size": "1/100"
+  },
+  "central_bank": {
+    "name": "Central Bank of Barbados",
+    "url": "http://www.centralbank.org.bb/"
+  },
+  "users": [
+    "Barbados"
+  ]
+}

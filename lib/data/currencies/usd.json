@@ -1,0 +1,52 @@
+{
+  "name": "United States Dollar",
+  "code": "USD",
+  "display": "$",
+  "representations": {
+    "unicode_decimal": [
+      36
+    ],
+    "html": "&#36;"
+  },
+  "minor_unit": {
+    "name": "Cent",
+    "size": "1/100",
+    "symbol": "¢"
+  },
+  "central_bank": {
+    "name": "Federal Reserve Bank",
+    "url": "http://www.federalreserve.gov"
+  },
+  "nicknames": [
+    "greenback",
+    "buck",
+    "green",
+    "dough",
+    "smacker",
+    "bones",
+    "dead presidents",
+    "scrillas",
+    "paper"
+  ],
+  "users": [
+    "United States",
+    "America",
+    "American Samoa",
+    "American Virgin Islands",
+    "British Indian Ocean Territory",
+    "British Virgin Islands",
+    "Ecuador",
+    "El Salvador",
+    "Guam",
+    "Haiti",
+    "Micronesia",
+    "Northern Mariana Islands",
+    "Palau",
+    "Panama",
+    "Puerto Rico",
+    "Turks and Caicos Islands",
+    "United States Minor Outlying Islands",
+    "Wake Island",
+    "East Timor"
+  ]
+}

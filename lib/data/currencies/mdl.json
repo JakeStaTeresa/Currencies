@@ -1,0 +1,15 @@
+{
+  "code": "MDL",
+  "name": "Moldova Leu",
+  "minor_unit": {
+    "name": "Ban",
+    "size": "1/100"
+  },
+  "central_bank": {
+    "name": "National Bank of Moldova",
+    "url": "http://www.bnm.md"
+  },
+  "users": [
+    "Moldova"
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "name": "Azerbaijan New Manat",
+  "code": "AZN",
+  "display": "ман",
+  "representations": {
+    "unicode_decimal": [
+      1084,
+      1072,
+      1085
+    ],
+    "html": "&#1084;&#1072;&#1085;"
+  },
+  "minor_unit": {
+    "name": "Qepik",
+    "size": "1/100",
+    "symbol": "qr"
+  },
+  "central_bank": {
+    "name": "Central Bank of the Republic of Azerbaijan",
+    "url": "http://www.cbar.az/"
+  },
+  "users": [
+    "Azerbaijan"
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "code": "RWF",
+  "name": "Rwanda Franc",
+  "minor_unit": {
+    "name": "Centime",
+    "size": "1/100"
+  },
+  "users": [
+    "Rwanda"
+  ]
+}

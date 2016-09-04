@@ -1,0 +1,23 @@
+{
+  "name": "Hungary Forint",
+  "code": "HUF",
+  "display": "Ft",
+  "representations": {
+    "unicode_decimal": [
+      70,
+      116
+    ],
+    "html": "&#70;&#116;"
+  },
+  "minor_unit": {
+    "name": "Fillér",
+    "size": "1/100"
+  },
+  "central_bank": {
+    "name": "Hungarian National Bank",
+    "url": "http://english.mnb.hu/"
+  },
+  "users": [
+    "Hungary"
+  ]
+}

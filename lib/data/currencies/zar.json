@@ -1,0 +1,25 @@
+{
+  "name": "South Africa Rand",
+  "code": "ZAR",
+  "display": "R",
+  "representations": {
+    "unicode_decimal": [
+      82
+    ],
+    "html": "&#82;"
+  },
+  "minor_unit": {
+    "name": "Cent",
+    "size": "1/100",
+    "symbol": "c"
+  },
+  "central_bank": {
+    "name": "South African Reserve Bank",
+    "url": "http://www.reservebank.co.za"
+  },
+  "users": [
+    "South Africa",
+    "Lesotho",
+    "Namibia"
+  ]
+}

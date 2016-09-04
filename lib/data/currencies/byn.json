@@ -1,0 +1,23 @@
+{
+  "name": "Belarus Ruble",
+  "code": "BYN",
+  "display": "Br",
+  "representations": {
+    "unicode_decimal": [
+      66,
+      114
+    ],
+    "html": "&#66;&#114;"
+  },
+  "minor_unit": {
+    "name": "Kapeyka",
+    "size": "1/100"
+  },
+  "central_bank": {
+    "name": "National Bank of the Republic of Belarus",
+    "url": "http://www.nbrb.by"
+  },
+  "users": [
+    "Belarus"
+  ]
+}

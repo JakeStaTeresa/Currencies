@@ -1,0 +1,22 @@
+{
+  "name": "Cayman Islands Dollar",
+  "code": "KYD",
+  "display": "$",
+  "representations": {
+    "unicode_decimal": [
+      36
+    ],
+    "html": "&#36;"
+  },
+  "minor_unit": {
+    "name": "Cent",
+    "size": "1/100"
+  },
+  "central_bank": {
+    "name": "Cayman Islands Monetary Authority",
+    "url": "http://www.cimoney.com.ky"
+  },
+  "users": [
+    "Cayman Islands"
+  ]
+}

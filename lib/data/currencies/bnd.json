@@ -1,0 +1,22 @@
+{
+  "name": "Brunei Darussalam Dollar",
+  "code": "BND",
+  "display": "$",
+  "representations": {
+    "unicode_decimal": [
+      36
+    ],
+    "html": "&#36;"
+  },
+  "minor_unit": {
+    "name": "Cent",
+    "size": "1/100"
+  },
+  "central_bank": {
+    "name": "Autoriti Monetari Brunei Darussalam",
+    "url": "http://www.ambd.gov.bn"
+  },
+  "users": [
+    "Brunei Darussalam"
+  ]
+}

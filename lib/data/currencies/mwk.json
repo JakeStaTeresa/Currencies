@@ -1,0 +1,15 @@
+{
+  "code": "MWK",
+  "name": "Malawi Kwacha",
+  "minor_unit": {
+    "name": "Tambala",
+    "size": "1/100"
+  },
+  "central_bank": {
+    "name": "Reserve Bank of Malawi",
+    "url": "http://www.rbm.mw"
+  },
+  "users": [
+    "Malawi"
+  ]
+}

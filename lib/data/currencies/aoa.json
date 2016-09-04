@@ -1,0 +1,15 @@
+{
+  "code": "AOA",
+  "name": "Angola Kwanza",
+  "minor_unit": {
+    "name": "cêntimos",
+    "size": "1/100"
+  },
+  "central_bank": {
+    "name": "Banco Nacional de Angola",
+    "url": "http://www.bna.ao"
+  },
+  "users": [
+    "Angola"
+  ]
+}

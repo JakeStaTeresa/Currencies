@@ -1,0 +1,15 @@
+{
+  "code": "AMD",
+  "name": "Armenia Dram",
+  "minor_unit": {
+    "name": "Luma",
+    "size": "1/100"
+  },
+  "central_bank": {
+    "name": "Central Bank of Armenia",
+    "url": "http://www.cba.am"
+  },
+  "users": [
+    "Armenia"
+  ]
+}

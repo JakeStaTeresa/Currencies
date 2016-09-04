@@ -1,0 +1,16 @@
+{
+  "code": "ZMW",
+  "name": "Zambia Kwacha",
+  "minor_unit": {
+    "name": "Ngwee",
+    "size": "1/100",
+    "symbol": "N"
+  },
+  "central_bank": {
+    "name": "Bank of Zambia",
+    "url": "http://www.boz.zm/(S(2afsh1f20ysd2p55uyxst045))/startpage.aspx"
+  },
+  "users": [
+    "Zambia"
+  ]
+}

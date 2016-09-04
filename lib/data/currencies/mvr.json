@@ -1,0 +1,15 @@
+{
+  "code": "MVR",
+  "name": "Maldives (Maldive Islands) Rufiyaa",
+  "minor_unit": {
+    "name": "Laari",
+    "size": "1/100"
+  },
+  "central_bank": {
+    "name": "Maldives Monetary Authority",
+    "url": "http://www.mma.gov.mv/index.php"
+  },
+  "users": [
+    "Maldives (Maldive Islands)"
+  ]
+}

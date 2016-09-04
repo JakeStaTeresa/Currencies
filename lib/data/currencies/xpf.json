@@ -1,0 +1,18 @@
+{
+  "code": "XPF",
+  "name": "Comptoirs Français du Pacifique (CFP) Franc",
+  "minor_unit": {
+    "name": "Centime",
+    "size": "1/100"
+  },
+  "central_bank": {
+    "name": "Institut d’émission d’Outre-Mer",
+    "url": "http://www.ieom.fr"
+  },
+  "users": [
+    "Comptoirs Français du Pacifique (CFP)",
+    "French Polynesia",
+    "New Caledonia",
+    "Wallis and Futuna Islands"
+  ]
+}

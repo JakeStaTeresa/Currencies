@@ -1,0 +1,16 @@
+{
+  "name": "Panama Balboa",
+  "code": "PAB",
+  "display": "B/.",
+  "representations": {
+    "unicode_decimal": [
+      66,
+      47,
+      46
+    ],
+    "html": "&#66;&#47;&#46;"
+  },
+  "users": [
+    "Panama"
+  ]
+}

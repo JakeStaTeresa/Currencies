@@ -1,0 +1,22 @@
+{
+  "name": "Honduras Lempira",
+  "code": "HNL",
+  "display": "L",
+  "representations": {
+    "unicode_decimal": [
+      76
+    ],
+    "html": "&#76;"
+  },
+  "minor_unit": {
+    "name": "Centavo",
+    "size": "1/100"
+  },
+  "central_bank": {
+    "name": "Central Bank of Honduras",
+    "url": "http://www.bch.hn"
+  },
+  "users": [
+    "Honduras"
+  ]
+}

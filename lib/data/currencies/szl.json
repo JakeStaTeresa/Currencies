@@ -1,0 +1,15 @@
+{
+  "code": "SZL",
+  "name": "Swaziland Lilangeni",
+  "minor_unit": {
+    "name": "Cent",
+    "size": "1/100"
+  },
+  "central_bank": {
+    "name": "Central Bank of Swaziland",
+    "url": "http://www.centralbank.org.sz"
+  },
+  "users": [
+    "Swaziland"
+  ]
+}

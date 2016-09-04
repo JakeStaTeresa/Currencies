@@ -1,0 +1,18 @@
+{
+  "name": "Korea (North) Won",
+  "code": "KPW",
+  "display": "₩",
+  "representations": {
+    "unicode_decimal": [
+      8361
+    ],
+    "html": "&#8361;"
+  },
+  "minor_unit": {
+    "name": "Chon",
+    "size": "1/100"
+  },
+  "users": [
+    "Korea (North)"
+  ]
+}

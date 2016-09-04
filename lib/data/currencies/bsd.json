@@ -1,0 +1,22 @@
+{
+  "name": "Bahamas Dollar",
+  "code": "BSD",
+  "display": "$",
+  "representations": {
+    "unicode_decimal": [
+      36
+    ],
+    "html": "&#36;"
+  },
+  "minor_unit": {
+    "name": "Cent",
+    "size": "1/100"
+  },
+  "central_bank": {
+    "name": "The Bahamas Central Bank",
+    "url": "http://www.centralbankbahamas.com/"
+  },
+  "users": [
+    "Bahamas"
+  ]
+}

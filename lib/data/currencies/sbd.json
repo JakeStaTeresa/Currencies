@@ -1,0 +1,14 @@
+{
+  "name": "Solomon Islands Dollar",
+  "code": "SBD",
+  "display": "$",
+  "representations": {
+    "unicode_decimal": [
+      36
+    ],
+    "html": "&#36;"
+  },
+  "users": [
+    "Solomon Islands"
+  ]
+}

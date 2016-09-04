@@ -1,0 +1,25 @@
+{
+  "name": "Trinidad and Tobago Dollar",
+  "code": "TTD",
+  "display": "TT$",
+  "representations": {
+    "unicode_decimal": [
+      84,
+      84,
+      36
+    ],
+    "html": "&#84;&#84;&#36;"
+  },
+  "minor_unit": {
+    "name": "Cent",
+    "size": "1/100"
+  },
+  "central_bank": {
+    "name": "Central Bank of Trinidad and Tobago",
+    "url": "http://www.central-bank.org.tt/"
+  },
+  "users": [
+    "Trinidad",
+    "Tobago"
+  ]
+}

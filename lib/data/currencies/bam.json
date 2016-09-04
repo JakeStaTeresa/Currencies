@@ -1,0 +1,26 @@
+{
+  "name": "Bosnia and Herzegovina Convertible Marka",
+  "code": "BAM",
+  "display": "KM",
+  "representations": {
+    "unicode_decimal": [
+      75,
+      77
+    ],
+    "html": "&#75;&#77;"
+  },
+  "minor_unit": {
+    "name": "Fening",
+    "size": "1/100"
+  },
+  "central_bank": {
+    "name": "Central bank of Bosnia and Herzegovina",
+    "url": "http://www.cbbh.ba"
+  },
+  "nicknames": [
+    "конвертибилна марка (Serbian)"
+  ],
+  "users": [
+    "Bosnia and Herzegovina"
+  ]
+}

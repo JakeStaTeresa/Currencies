@@ -1,0 +1,22 @@
+{
+  "name": "Saudi Arabia Riyal",
+  "code": "SAR",
+  "display": "﷼",
+  "representations": {
+    "unicode_decimal": [
+      65020
+    ],
+    "html": "&#65020;"
+  },
+  "minor_unit": {
+    "name": "Halala",
+    "size": "1/100"
+  },
+  "central_bank": {
+    "name": "Saudi Arabian Monetary Agency",
+    "url": "http://www.sama-ksa.org/sites/samaen/pages/home.aspx"
+  },
+  "users": [
+    "Saudi Arabia"
+  ]
+}

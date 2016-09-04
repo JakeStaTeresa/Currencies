@@ -1,0 +1,28 @@
+{
+  "name": "Norway Krone",
+  "code": "NOK",
+  "display": "kr",
+  "representations": {
+    "unicode_decimal": [
+      107,
+      114
+    ],
+    "html": "&#107;&#114;"
+  },
+  "minor_unit": {
+    "name": "øre",
+    "size": "1/100"
+  },
+  "central_bank": {
+    "name": "Norges Bank",
+    "url": "http://www.norges-bank.no/en/"
+  },
+  "users": [
+    "Norway",
+    "Bouvet Island",
+    "Svalbard",
+    "Jan Mayen",
+    "Queen Maud Land",
+    "Peter I Island"
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "code": "BDT",
+  "name": "Bangladesh Taka",
+  "minor_unit": {
+    "name": "Poisha",
+    "size": "1/100"
+  },
+  "central_bank": {
+    "name": "Bangladesh Bank",
+    "url": "http://www.bangladesh-bank.org"
+  },
+  "users": [
+    "Bangladesh"
+  ]
+}

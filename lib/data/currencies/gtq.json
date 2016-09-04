@@ -1,0 +1,22 @@
+{
+  "name": "Guatemala Quetzal",
+  "code": "GTQ",
+  "display": "Q",
+  "representations": {
+    "unicode_decimal": [
+      81
+    ],
+    "html": "&#81;"
+  },
+  "minor_unit": {
+    "name": "Centavo",
+    "size": "1/100"
+  },
+  "central_bank": {
+    "name": "Bank of Guatemala",
+    "url": "http://www.banguat.gob.gt"
+  },
+  "users": [
+    "Guatemala"
+  ]
+}

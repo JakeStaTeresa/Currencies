@@ -1,0 +1,11 @@
+{
+  "code": "UGX",
+  "name": "Uganda Shilling",
+  "central_bank": {
+    "name": "Bank of Uganda",
+    "url": "http://www.bou.or.ug"
+  },
+  "users": [
+    "Uganda"
+  ]
+}

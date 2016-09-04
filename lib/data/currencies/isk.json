@@ -1,0 +1,19 @@
+{
+  "name": "Iceland Krona",
+  "code": "ISK",
+  "display": "kr",
+  "representations": {
+    "unicode_decimal": [
+      107,
+      114
+    ],
+    "html": "&#107;&#114;"
+  },
+  "central_bank": {
+    "name": "Central Bank of Iceland",
+    "url": "http://www.sedlabanki.is"
+  },
+  "users": [
+    "Iceland"
+  ]
+}

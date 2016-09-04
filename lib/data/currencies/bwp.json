@@ -1,0 +1,23 @@
+{
+  "name": "Botswana Pula",
+  "code": "BWP",
+  "display": "P",
+  "representations": {
+    "unicode_decimal": [
+      80
+    ],
+    "html": "&#80;"
+  },
+  "minor_unit": {
+    "name": "Thebe",
+    "size": "1/100",
+    "symbol": "t"
+  },
+  "central_bank": {
+    "name": "Bank of Botswana",
+    "url": "http://www.bankofbotswana.bw"
+  },
+  "users": [
+    "Botswana"
+  ]
+}

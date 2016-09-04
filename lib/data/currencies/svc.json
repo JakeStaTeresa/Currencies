@@ -1,0 +1,19 @@
+{
+  "name": "El Salvador Colon",
+  "code": "SVC",
+  "display": "$",
+  "representations": {
+    "unicode_decimal": [
+      36
+    ],
+    "html": "&#36;"
+  },
+  "minor_unit": {
+    "name": "Centavo",
+    "size": "1/100",
+    "symbol": "¢"
+  },
+  "users": [
+    "El Salvador"
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "name": "Seychelles Rupee",
+  "code": "SCR",
+  "display": "₨",
+  "representations": {
+    "unicode_decimal": [
+      8360
+    ],
+    "html": "&#8360;"
+  },
+  "minor_unit": {
+    "name": "Cent",
+    "size": "1/100"
+  },
+  "central_bank": {
+    "name": "Central Bank of Seychelles",
+    "url": "http://www.cbs.sc"
+  },
+  "users": [
+    "Seychelles"
+  ]
+}

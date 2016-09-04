@@ -1,0 +1,16 @@
+{
+  "code": "SLL",
+  "name": "Sierra Leone Leone",
+  "minor_unit": {
+    "name": "Cent",
+    "size": "1/100",
+    "symbol": "c"
+  },
+  "central_bank": {
+    "name": "Bank of Sierra Leone",
+    "url": "http://www.bsl.gov.sl"
+  },
+  "users": [
+    "Sierra Leone"
+  ]
+}

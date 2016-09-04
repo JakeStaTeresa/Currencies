@@ -1,0 +1,28 @@
+{
+  "name": "Bulgaria Lev",
+  "code": "BGN",
+  "display": "лв",
+  "representations": {
+    "unicode_decimal": [
+      1083,
+      1074
+    ],
+    "html": "&#1083;&#1074;"
+  },
+  "minor_unit": {
+    "name": "Stotinki",
+    "size": "1/100",
+    "symbol": "стотинки"
+  },
+  "central_bank": {
+    "name": "Bulgarian National Bank",
+    "url": "http://www.bnb.bg"
+  },
+  "nicknames": [
+    "Kint (masc)",
+    "Kinta (fem)"
+  ],
+  "users": [
+    "Bulgaria"
+  ]
+}

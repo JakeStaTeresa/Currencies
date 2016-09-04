@@ -1,0 +1,22 @@
+{
+  "name": "Thailand Baht",
+  "code": "THB",
+  "display": "฿",
+  "representations": {
+    "unicode_decimal": [
+      3647
+    ],
+    "html": "&#3647;"
+  },
+  "minor_unit": {
+    "name": "Satang",
+    "size": "1/100"
+  },
+  "central_bank": {
+    "name": "Bank of Thailand",
+    "url": "http://www.bot.or.th/english/"
+  },
+  "users": [
+    "Thailand"
+  ]
+}

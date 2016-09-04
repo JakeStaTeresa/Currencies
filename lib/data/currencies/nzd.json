@@ -1,0 +1,27 @@
+{
+  "name": "New Zealand Dollar",
+  "code": "NZD",
+  "display": "$",
+  "representations": {
+    "unicode_decimal": [
+      36
+    ],
+    "html": "&#36;"
+  },
+  "minor_unit": {
+    "name": "Cent",
+    "size": "1/100",
+    "symbol": "c"
+  },
+  "central_bank": {
+    "name": "Reserve Bank of New Zealand",
+    "url": "http://www.rbnz.govt.nz/"
+  },
+  "users": [
+    "New Zealand",
+    "Cook Islands",
+    "Niue",
+    "Pitcairn Islands",
+    "Tokelau"
+  ]
+}

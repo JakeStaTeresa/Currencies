@@ -1,0 +1,23 @@
+{
+  "name": "Nicaragua Cordoba",
+  "code": "NIO",
+  "display": "C$",
+  "representations": {
+    "unicode_decimal": [
+      67,
+      36
+    ],
+    "html": "&#67;&#36;"
+  },
+  "minor_unit": {
+    "name": "Centavos",
+    "size": "1/100"
+  },
+  "central_bank": {
+    "name": "Central Bank of Nicaragua",
+    "url": "http://www.bcn.gob.ni"
+  },
+  "users": [
+    "Nicaragua"
+  ]
+}

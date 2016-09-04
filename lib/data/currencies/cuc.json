@@ -1,0 +1,19 @@
+{
+  "code": "CUC",
+  "name": "Cuba Convertible Peso",
+  "minor_unit": {
+    "name": "Centavo Convertible",
+    "size": "1/100",
+    "symbol": "¢"
+  },
+  "central_bank": {
+    "name": "Central Bank of Cuba",
+    "url": "http://www.bc.gob.cu/Espanol/default.asp"
+  },
+  "nicknames": [
+    "Chavito"
+  ],
+  "users": [
+    "Cuba"
+  ]
+}

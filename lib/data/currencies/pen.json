@@ -1,0 +1,25 @@
+{
+  "name": "Peru Sol",
+  "code": "PEN",
+  "description": "This symbol is composed of three sequential characters: an upper case \"S\" followed by a slash \"/\" followed by a dot \".\".",
+  "display": "S/.",
+  "representations": {
+    "unicode_decimal": [
+      83,
+      47,
+      46
+    ],
+    "html": "&#83;&#47;&#46;"
+  },
+  "minor_unit": {
+    "name": "Céntimo",
+    "size": "1/100"
+  },
+  "central_bank": {
+    "name": "Central Reserve Bank of Peru",
+    "url": "http://www.bcrp.gob.pe/home.html"
+  },
+  "users": [
+    "Peru"
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "code": "MMK",
+  "name": "Myanmar (Burma) Kyat",
+  "minor_unit": {
+    "name": "Pya",
+    "size": "1/100"
+  },
+  "central_bank": {
+    "name": "Central Bank of Myanmar",
+    "url": "http://www.cbm.gov.mm"
+  },
+  "users": [
+    "Myanmar (Burma)"
+  ]
+}

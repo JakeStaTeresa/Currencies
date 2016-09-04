@@ -1,0 +1,24 @@
+{
+  "name": "Albania Lek",
+  "code": "ALL",
+  "display": "Lek",
+  "representations": {
+    "unicode_decimal": [
+      76,
+      101,
+      107
+    ],
+    "html": "&#76;&#101;&#107;"
+  },
+  "minor_unit": {
+    "name": "Qindarkë",
+    "size": "1/100"
+  },
+  "central_bank": {
+    "name": "Bank of Albania",
+    "url": "http://www.bankofalbania.org/web/Welcome_to_Bank_of_Albania_webpage_5186_2.php"
+  },
+  "users": [
+    "Albania"
+  ]
+}

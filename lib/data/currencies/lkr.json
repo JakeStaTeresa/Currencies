@@ -1,0 +1,22 @@
+{
+  "name": "Sri Lanka Rupee",
+  "code": "LKR",
+  "display": "₨",
+  "representations": {
+    "unicode_decimal": [
+      8360
+    ],
+    "html": "&#8360;"
+  },
+  "minor_unit": {
+    "name": "Cent",
+    "size": "1/100"
+  },
+  "central_bank": {
+    "name": "Central Bank of Sri Lanka",
+    "url": "http://www.cbsl.gov.lk"
+  },
+  "users": [
+    "Sri Lanka"
+  ]
+}

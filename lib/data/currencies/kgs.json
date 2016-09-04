@@ -1,0 +1,15 @@
+{
+  "name": "Kyrgyzstan Som",
+  "code": "KGS",
+  "display": "лв",
+  "representations": {
+    "unicode_decimal": [
+      1083,
+      1074
+    ],
+    "html": "&#1083;&#1074;"
+  },
+  "users": [
+    "Kyrgyzstan"
+  ]
+}

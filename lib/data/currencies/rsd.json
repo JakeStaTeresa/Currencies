@@ -1,0 +1,28 @@
+{
+  "name": "Serbia Dinar",
+  "code": "RSD",
+  "display": "Дин.",
+  "representations": {
+    "unicode_decimal": [
+      1044,
+      1080,
+      1085,
+      46
+    ],
+    "html": "&#1044;&#1080;&#1085;&#46;"
+  },
+  "minor_unit": {
+    "name": "Para",
+    "size": "1/100"
+  },
+  "central_bank": {
+    "name": "National Bank of Serbia",
+    "url": "http://www.nbs.rs"
+  },
+  "nicknames": [
+    "Glava"
+  ],
+  "users": [
+    "Serbia"
+  ]
+}

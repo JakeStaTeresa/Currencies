@@ -1,0 +1,28 @@
+{
+  "name": "Venezuela Bolivar",
+  "code": "VEF",
+  "display": "Bs",
+  "representations": {
+    "unicode_decimal": [
+      66,
+      115
+    ],
+    "html": "&#66;&#115;"
+  },
+  "minor_unit": {
+    "name": "céntimo",
+    "size": "1/100",
+    "symbol": "¢"
+  },
+  "central_bank": {
+    "name": "Banco Central de Venezuela",
+    "url": "http://www.bcv.org.ve"
+  },
+  "nicknames": [
+    "bolo(s)",
+    "luca(s)"
+  ],
+  "users": [
+    "Venezuela"
+  ]
+}

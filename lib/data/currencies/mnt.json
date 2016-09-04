@@ -1,0 +1,25 @@
+{
+  "name": "Mongolia Tughrik",
+  "code": "MNT",
+  "display": "₮",
+  "representations": {
+    "unicode_decimal": [
+      8366
+    ],
+    "html": "&#8366;"
+  },
+  "minor_unit": {
+    "name": "Möngö",
+    "size": "1/100"
+  },
+  "central_bank": {
+    "name": "Bank of Mongolia",
+    "url": "http://www.mongolbank.mn"
+  },
+  "nicknames": [
+    "Tögrög"
+  ],
+  "users": [
+    "Mongolia"
+  ]
+}

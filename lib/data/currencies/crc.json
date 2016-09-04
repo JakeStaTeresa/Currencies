@@ -1,0 +1,22 @@
+{
+  "name": "Costa Rica Colon",
+  "code": "CRC",
+  "display": "₡",
+  "representations": {
+    "unicode_decimal": [
+      8353
+    ],
+    "html": "&#8353;"
+  },
+  "minor_unit": {
+    "name": "Céntimo",
+    "size": "1/100"
+  },
+  "central_bank": {
+    "name": "Central Bank of Costa Rica",
+    "url": "http://www.bccr.fi.cr/"
+  },
+  "users": [
+    "Costa Rica"
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "name": "Taiwan New Dollar",
+  "code": "TWD",
+  "description": "Unconfirmed.",
+  "display": "NT$",
+  "representations": {
+    "unicode_decimal": [
+      78,
+      84,
+      36
+    ],
+    "html": "&#78;&#84;&#36;"
+  },
+  "minor_unit": {
+    "name": "Jiao",
+    "size": "1/10",
+    "symbol": "角"
+  },
+  "central_bank": {
+    "name": "Central Bank of the Republic of China (Taiwan)",
+    "url": "http://www.cbc.gov.tw/mp2.html"
+  },
+  "nicknames": [
+    "kuài",
+    "máo",
+    "Taibi"
+  ],
+  "users": [
+    "Taiwan"
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "name": "Argentina Peso",
+  "code": "ARS",
+  "description": "Standard dollar sign is generally used to signify peso amounts.",
+  "display": "$",
+  "representations": {
+    "unicode_decimal": [
+      36
+    ],
+    "html": "&#36;"
+  },
+  "minor_unit": {
+    "name": "Centavo",
+    "size": "1/100"
+  },
+  "central_bank": {
+    "name": "Central Bank of Argentina",
+    "url": "http://www.bcra.gov.ar/index_i.htm"
+  },
+  "users": [
+    "Argentina",
+    "Islas Malvinas"
+  ]
+}

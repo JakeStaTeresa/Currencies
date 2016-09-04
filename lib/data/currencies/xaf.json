@@ -1,0 +1,21 @@
+{
+  "code": "XAF",
+  "name": "Communauté Financière Africaine (BEAC) CFA Franc BEAC",
+  "minor_unit": {
+    "name": "Centime",
+    "size": "1/100"
+  },
+  "central_bank": {
+    "name": "Bank of Central African States",
+    "url": "http://www.beac.int"
+  },
+  "users": [
+    "Communauté Financière Africaine (BEAC)",
+    "Cameroon",
+    "Central African Republic",
+    "Chad",
+    "Congo/Brazzaville",
+    "Equatorial Guinea",
+    "Gabon"
+  ]
+}

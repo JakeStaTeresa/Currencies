@@ -1,0 +1,15 @@
+{
+  "code": "JOD",
+  "name": "Jordan Dinar",
+  "minor_unit": {
+    "name": "Qirsh",
+    "size": "1/100"
+  },
+  "central_bank": {
+    "name": "Central Bank of Jordan",
+    "url": "http://www.cbj.gov.jo"
+  },
+  "users": [
+    "Jordan"
+  ]
+}

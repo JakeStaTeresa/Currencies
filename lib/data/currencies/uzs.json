@@ -1,0 +1,23 @@
+{
+  "name": "Uzbekistan Som",
+  "code": "UZS",
+  "display": "лв",
+  "representations": {
+    "unicode_decimal": [
+      1083,
+      1074
+    ],
+    "html": "&#1083;&#1074;"
+  },
+  "minor_unit": {
+    "name": "Tiyin",
+    "size": "1/100"
+  },
+  "central_bank": {
+    "name": "Central bank of the Republic of Uzbekistan",
+    "url": "http://www.cbu.uz"
+  },
+  "users": [
+    "Uzbekistan"
+  ]
+}

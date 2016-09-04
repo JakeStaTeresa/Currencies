@@ -1,0 +1,15 @@
+{
+  "code": "BHD",
+  "name": "Bahrain Dinar",
+  "minor_unit": {
+    "name": "Fils",
+    "size": "1/1000"
+  },
+  "central_bank": {
+    "name": "Central Bank of Bahrain",
+    "url": "http://www.cbb.gov.bh"
+  },
+  "users": [
+    "Bahrain"
+  ]
+}

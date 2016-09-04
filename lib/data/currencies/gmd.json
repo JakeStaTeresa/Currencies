@@ -1,0 +1,11 @@
+{
+  "code": "GMD",
+  "name": "Gambia Dalasi",
+  "minor_unit": {
+    "name": "Butut",
+    "size": "1/100"
+  },
+  "users": [
+    "Gambia"
+  ]
+}

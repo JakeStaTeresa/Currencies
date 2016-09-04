@@ -1,0 +1,22 @@
+{
+  "name": "Nigeria Naira",
+  "code": "NGN",
+  "display": "₦",
+  "representations": {
+    "unicode_decimal": [
+      8358
+    ],
+    "html": "&#8358;"
+  },
+  "minor_unit": {
+    "name": "Kobo",
+    "size": "1/100"
+  },
+  "central_bank": {
+    "name": "Central Bank of Nigeria",
+    "url": "http://www.cenbank.org"
+  },
+  "users": [
+    "Nigeria"
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "name": "Bolivia Bolíviano",
+  "code": "BOB",
+  "display": "$b",
+  "representations": {
+    "unicode_decimal": [
+      36,
+      98
+    ],
+    "html": "&#36;&#98;"
+  },
+  "minor_unit": {
+    "name": "Centavo",
+    "size": "1/100"
+  },
+  "central_bank": {
+    "name": "Banco Central de Bolivia",
+    "url": "http://www.bcb.gob.bo"
+  },
+  "users": [
+    "Bolivia"
+  ]
+}

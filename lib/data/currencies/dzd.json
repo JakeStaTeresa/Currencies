@@ -1,0 +1,15 @@
+{
+  "code": "DZD",
+  "name": "Algeria Dinar",
+  "minor_unit": {
+    "name": "Santeem",
+    "size": "1/100"
+  },
+  "central_bank": {
+    "name": "Bank of Algeria",
+    "url": "http://www.bank-of-algeria.dz"
+  },
+  "users": [
+    "Algeria"
+  ]
+}

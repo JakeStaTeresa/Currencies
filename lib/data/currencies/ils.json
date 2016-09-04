@@ -1,0 +1,23 @@
+{
+  "name": "Israel Shekel",
+  "code": "ILS",
+  "display": "₪",
+  "representations": {
+    "unicode_decimal": [
+      8362
+    ],
+    "html": "&#8362;"
+  },
+  "minor_unit": {
+    "name": "Agorat",
+    "size": "1/100"
+  },
+  "central_bank": {
+    "name": "Bank of Israel",
+    "url": "http://www.bankisrael.gov.il/firsteng.htm"
+  },
+  "users": [
+    "Israel",
+    "Palestinian Territories"
+  ]
+}

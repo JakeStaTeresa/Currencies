@@ -1,0 +1,22 @@
+{
+  "name": "Guyana Dollar",
+  "code": "GYD",
+  "display": "$",
+  "representations": {
+    "unicode_decimal": [
+      36
+    ],
+    "html": "&#36;"
+  },
+  "minor_unit": {
+    "name": "Cent",
+    "size": "1/100"
+  },
+  "central_bank": {
+    "name": "Bank of Guyana",
+    "url": "http://www.bankofguyana.org.gy/bog/"
+  },
+  "users": [
+    "Guyana"
+  ]
+}

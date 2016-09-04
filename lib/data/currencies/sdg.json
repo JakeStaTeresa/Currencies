@@ -1,0 +1,15 @@
+{
+  "code": "SDG",
+  "name": "Sudan Pound",
+  "minor_unit": {
+    "name": "Piastres",
+    "size": "1/100"
+  },
+  "central_bank": {
+    "name": "Central Bank of Sudan",
+    "url": "http://www.cbos.gov.sd"
+  },
+  "users": [
+    "Sudan"
+  ]
+}

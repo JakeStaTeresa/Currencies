@@ -1,0 +1,25 @@
+{
+  "name": "India Rupee",
+  "code": "INR",
+  "description": "Introduced July 2010 - no font information available at this time.",
+  "minor_unit": {
+    "name": "paisa",
+    "size": "1/100",
+    "symbol": "p"
+  },
+  "central_bank": {
+    "name": "Reserve Bank of India",
+    "url": "http://www.rbi.org.in"
+  },
+  "nicknames": [
+    "Taaka",
+    "Rupayya",
+    "Rūbāi",
+    "Athanni (for 50 Paise coins)"
+  ],
+  "users": [
+    "India",
+    "Bhutan",
+    "Nepal"
+  ]
+}

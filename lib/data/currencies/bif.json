@@ -1,0 +1,15 @@
+{
+  "code": "BIF",
+  "name": "Burundi Franc",
+  "minor_unit": {
+    "name": "Centime",
+    "size": "1/100"
+  },
+  "central_bank": {
+    "name": "Banque de la Republique du Burundi",
+    "url": "http://www.brb.bi"
+  },
+  "users": [
+    "Burundi"
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "code": "MGA",
+  "name": "Madagascar Ariary",
+  "minor_unit": {
+    "name": "Iraimbilanja",
+    "size": "1/5"
+  },
+  "central_bank": {
+    "name": "Banque Centrale de Madagascar",
+    "url": "http://www.banque-centrale.mg"
+  },
+  "users": [
+    "Madagascar"
+  ]
+}

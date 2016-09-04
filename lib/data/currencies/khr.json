@@ -1,0 +1,22 @@
+{
+  "name": "Cambodia Riel",
+  "code": "KHR",
+  "display": "៛",
+  "representations": {
+    "unicode_decimal": [
+      6107
+    ],
+    "html": "&#6107;"
+  },
+  "minor_unit": {
+    "name": "Kak",
+    "size": "1/10"
+  },
+  "central_bank": {
+    "name": "National Bank of Cambodia",
+    "url": "http://www.nbc.org.kh/english/index.php"
+  },
+  "users": [
+    "Cambodia"
+  ]
+}

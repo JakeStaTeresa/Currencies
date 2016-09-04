@@ -1,0 +1,15 @@
+{
+  "code": "LYD",
+  "name": "Libya Dinar",
+  "minor_unit": {
+    "name": "Dirham",
+    "size": "1/1000"
+  },
+  "central_bank": {
+    "name": "Central Bank of Libya",
+    "url": "http://www.cbl.gov.ly"
+  },
+  "users": [
+    "Libya"
+  ]
+}

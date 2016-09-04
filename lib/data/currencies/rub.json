@@ -1,0 +1,29 @@
+{
+  "name": "Russia Ruble",
+  "code": "RUB",
+  "description": "Three cyrillic characters forming the Russian equivalent of \"RUB\".",
+  "display": "руб",
+  "representations": {
+    "unicode_decimal": [
+      1088,
+      1091,
+      1073
+    ],
+    "html": "&#1088;&#1091;&#1073;"
+  },
+  "minor_unit": {
+    "name": "kopek",
+    "size": "1/100",
+    "symbol": "к."
+  },
+  "central_bank": {
+    "name": "Bank of Russia",
+    "url": "http://www.cbr.ru"
+  },
+  "users": [
+    "Russia",
+    "Tajikistan",
+    "Abkhazia",
+    "South Ossetia"
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "code": "TOP",
+  "name": "Tonga Pa'anga",
+  "minor_unit": {
+    "name": "Seniti",
+    "size": "1/100"
+  },
+  "central_bank": {
+    "name": "National Reserve Bank of Tonga",
+    "url": "http://www.reservebank.to/default.htm"
+  },
+  "users": [
+    "Tonga"
+  ]
+}

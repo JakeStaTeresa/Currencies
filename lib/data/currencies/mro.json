@@ -1,0 +1,15 @@
+{
+  "code": "MRO",
+  "name": "Mauritania Ouguiya",
+  "minor_unit": {
+    "name": "Khoums",
+    "size": "1/100"
+  },
+  "central_bank": {
+    "name": "Bangque Centrale de Mauritanie",
+    "url": "http://www.bcm.mr"
+  },
+  "users": [
+    "Mauritania"
+  ]
+}

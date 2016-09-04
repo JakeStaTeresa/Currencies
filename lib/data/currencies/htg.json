@@ -1,0 +1,15 @@
+{
+  "code": "HTG",
+  "name": "Haiti Gourde",
+  "minor_unit": {
+    "name": "Centime",
+    "size": "1/100"
+  },
+  "central_bank": {
+    "name": "Bank of the Republic of Haiti",
+    "url": "http://www.brh.net"
+  },
+  "users": [
+    "Haiti"
+  ]
+}

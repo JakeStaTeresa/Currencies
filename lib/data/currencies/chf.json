@@ -1,0 +1,34 @@
+{
+  "name": "Switzerland Franc",
+  "code": "CHF",
+  "display": "CHF",
+  "representations": {
+    "unicode_decimal": [
+      67,
+      72,
+      70
+    ],
+    "html": "&#67;&#72;&#70;"
+  },
+  "minor_unit": {
+    "name": "Rappen (German), centime (French), centesimo (Italian), and rap (Romansh)",
+    "size": "1/100",
+    "symbol": "Rp."
+  },
+  "central_bank": {
+    "name": "Swiss National Bank",
+    "url": "http://www.snb.ch/"
+  },
+  "nicknames": [
+    "Stutz",
+    "Stei",
+    "Eier (Swiss)",
+    "Chuffs"
+  ],
+  "users": [
+    "Switzerland",
+    "Liechtenstein",
+    "Campione d'Italia",
+    "Büsingen am Hochrhein"
+  ]
+}

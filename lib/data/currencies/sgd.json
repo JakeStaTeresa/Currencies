@@ -1,0 +1,26 @@
+{
+  "name": "Singapore Dollar",
+  "code": "SGD",
+  "display": "$",
+  "representations": {
+    "unicode_decimal": [
+      36
+    ],
+    "html": "&#36;"
+  },
+  "minor_unit": {
+    "name": "Cent",
+    "size": "1/100",
+    "symbol": "S¢"
+  },
+  "central_bank": {
+    "name": "Monetary Authority of Singapore",
+    "url": "http://www.mas.gov.sg"
+  },
+  "nicknames": [
+    "Sing"
+  ],
+  "users": [
+    "Singapore"
+  ]
+}

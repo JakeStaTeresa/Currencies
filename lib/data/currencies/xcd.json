@@ -1,0 +1,28 @@
+{
+  "name": "East Caribbean Dollar",
+  "code": "XCD",
+  "display": "$",
+  "representations": {
+    "unicode_decimal": [
+      36
+    ],
+    "html": "&#36;"
+  },
+  "minor_unit": {
+    "name": "Cent",
+    "size": "1/100"
+  },
+  "central_bank": {
+    "name": "Eastern Caribbean Central Bank",
+    "url": "http://www.eccb-centralbank.org"
+  },
+  "users": [
+    "East Caribbean",
+    "Anguilla",
+    "Antigua and Barbuda",
+    "Dominica",
+    "Grenada",
+    "The Grenadines and Saint Vincent",
+    "Montserrat"
+  ]
+}

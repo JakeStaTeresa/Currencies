@@ -1,0 +1,15 @@
+{
+  "code": "IQD",
+  "name": "Iraq Dinar",
+  "minor_unit": {
+    "name": "fils",
+    "size": "1/1000"
+  },
+  "central_bank": {
+    "name": "Central Bank of Iraq",
+    "url": "http://www.cbi.iq/"
+  },
+  "users": [
+    "Iraq"
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "name": "Mauritius Rupee",
+  "code": "MUR",
+  "display": "₨",
+  "representations": {
+    "unicode_decimal": [
+      8360
+    ],
+    "html": "&#8360;"
+  },
+  "minor_unit": {
+    "name": "Cent",
+    "size": "1/100"
+  },
+  "central_bank": {
+    "name": "Bank of Mauritius",
+    "url": "https://www.bom.mu"
+  },
+  "users": [
+    "Mauritius"
+  ]
+}

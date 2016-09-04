@@ -1,0 +1,23 @@
+{
+  "name": "Mozambique Metical",
+  "code": "MZN",
+  "display": "MT",
+  "representations": {
+    "unicode_decimal": [
+      77,
+      84
+    ],
+    "html": "&#77;&#84;"
+  },
+  "minor_unit": {
+    "name": "Centavo",
+    "size": "1/100"
+  },
+  "central_bank": {
+    "name": "Banco de Moçambique",
+    "url": "http://www.bancomoc.mz"
+  },
+  "users": [
+    "Mozambique"
+  ]
+}

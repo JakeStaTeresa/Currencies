@@ -1,0 +1,37 @@
+{
+  "name": "Australia Dollar",
+  "code": "AUD",
+  "display": "$",
+  "representations": {
+    "unicode_decimal": [
+      36
+    ],
+    "html": "&#36;"
+  },
+  "minor_unit": {
+    "name": "Cent",
+    "size": "1/100",
+    "symbol": "c"
+  },
+  "central_bank": {
+    "name": "Reserve Bank of Australia",
+    "url": "http://www.rba.gov.au"
+  },
+  "nicknames": [
+    "Buck",
+    "Dough"
+  ],
+  "users": [
+    "Australia",
+    "Christmas Island",
+    "Cocos (Keeling) Islands",
+    "Kiribati",
+    "Nauru",
+    "Norfolk Island",
+    "Ashmore and Cartier Islands",
+    "Australian Antarctic Territory",
+    "Coral Sea Islands",
+    "Heard Island",
+    "McDonald Islands"
+  ]
+}

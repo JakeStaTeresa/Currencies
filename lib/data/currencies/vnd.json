@@ -1,0 +1,22 @@
+{
+  "name": "Viet Nam Dong",
+  "code": "VND",
+  "display": "₫",
+  "representations": {
+    "unicode_decimal": [
+      8363
+    ],
+    "html": "&#8363;"
+  },
+  "minor_unit": {
+    "name": "Hào",
+    "size": "1/100"
+  },
+  "central_bank": {
+    "name": "State Bank of Vietnam",
+    "url": "http://www.sbv.gov.vn"
+  },
+  "users": [
+    "Viet Nam"
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "code": "CVE",
+  "name": "Cape Verde Escudo",
+  "minor_unit": {
+    "name": "Centavo (discontinued)",
+    "size": "1/100"
+  },
+  "central_bank": {
+    "name": "Bank of Cape Verde",
+    "url": "http://www.bcv.cv"
+  },
+  "users": [
+    "Cape Verde"
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "name": "Aruba Guilder",
+  "code": "AWG",
+  "display": "ƒ",
+  "representations": {
+    "unicode_decimal": [
+      402
+    ],
+    "html": "&#402;"
+  },
+  "users": [
+    "Aruba"
+  ]
+}

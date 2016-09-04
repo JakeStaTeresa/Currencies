@@ -1,0 +1,11 @@
+{
+  "code": "MOP",
+  "name": "Macau Pataca",
+  "minor_unit": {
+    "name": "Ho",
+    "size": "1/10"
+  },
+  "users": [
+    "Macau"
+  ]
+}

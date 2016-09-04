@@ -1,0 +1,37 @@
+{
+  "name": "Sweden Krona",
+  "code": "SEK",
+  "description": "This symbol is composed of two sequential characters: a lower case \"k\" followed by a lower case \"r\".",
+  "display": "kr",
+  "representations": {
+    "unicode_decimal": [
+      107,
+      114
+    ],
+    "html": "&#107;&#114;"
+  },
+  "minor_unit": {
+    "name": "ören (discontinued)",
+    "size": "1/100"
+  },
+  "central_bank": {
+    "name": "Sveriges Riksbank",
+    "url": "http://www.riksbank.com/"
+  },
+  "nicknames": [
+    "spänn",
+    "stålar",
+    "slant",
+    "bagare",
+    "bagis",
+    "pix",
+    "daler",
+    "para",
+    "lök",
+    "papp",
+    "riksdaler"
+  ],
+  "users": [
+    "Sweden"
+  ]
+}

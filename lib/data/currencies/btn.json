@@ -1,0 +1,15 @@
+{
+  "code": "BTN",
+  "name": "Bhutan Ngultrum",
+  "minor_unit": {
+    "name": "Chhertum",
+    "size": "1/100"
+  },
+  "central_bank": {
+    "name": "Royal Monetary Authority of Bhutan",
+    "url": "http://www.rma.org.bt"
+  },
+  "users": [
+    "Bhutan"
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "name": "Kazakhstan Tenge",
+  "code": "KZT",
+  "display": "лв",
+  "representations": {
+    "unicode_decimal": [
+      1083,
+      1074
+    ],
+    "html": "&#1083;&#1074;"
+  },
+  "minor_unit": {
+    "name": "Tïin",
+    "size": "1/100"
+  },
+  "central_bank": {
+    "name": "The National Bank of Kazakhstan",
+    "url": "http://www.nationalbank.kz"
+  },
+  "users": [
+    "Kazakhstan"
+  ]
+}

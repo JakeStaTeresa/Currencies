@@ -1,0 +1,23 @@
+{
+  "code": "XOF",
+  "name": "Communauté Financière Africaine (BCEAO) Franc",
+  "minor_unit": {
+    "name": "Centime",
+    "size": "1/100"
+  },
+  "central_bank": {
+    "name": "Bank of Central African States",
+    "url": "http://www.beac.int"
+  },
+  "users": [
+    "Communauté Financière Africaine (BCEAO)",
+    "Benin",
+    "Burkina Faso",
+    "Côte D'Ivoire",
+    "Guinea-Bissau",
+    "Mali",
+    "Niger",
+    "Senegal",
+    "Togo"
+  ]
+}

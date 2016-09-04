@@ -1,0 +1,19 @@
+{
+  "name": "Guernsey Pound",
+  "code": "GGP",
+  "display": "£",
+  "representations": {
+    "unicode_decimal": [
+      163
+    ],
+    "html": "&#163;"
+  },
+  "minor_unit": {
+    "name": "Penny",
+    "size": "1/100",
+    "symbol": "p"
+  },
+  "users": [
+    "Guernsey"
+  ]
+}

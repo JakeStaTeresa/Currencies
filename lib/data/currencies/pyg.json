@@ -1,0 +1,23 @@
+{
+  "name": "Paraguay Guarani",
+  "code": "PYG",
+  "display": "Gs",
+  "representations": {
+    "unicode_decimal": [
+      71,
+      115
+    ],
+    "html": "&#71;&#115;"
+  },
+  "minor_unit": {
+    "name": "Céntimo",
+    "size": "1/100"
+  },
+  "central_bank": {
+    "name": "Banco Central del Paraguay",
+    "url": "http://www.bcp.gov.py"
+  },
+  "users": [
+    "Paraguay"
+  ]
+}

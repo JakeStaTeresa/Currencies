@@ -1,0 +1,23 @@
+{
+  "name": "Uruguay Peso",
+  "code": "UYU",
+  "display": "$U",
+  "representations": {
+    "unicode_decimal": [
+      36,
+      85
+    ],
+    "html": "&#36;&#85;"
+  },
+  "minor_unit": {
+    "name": "Centésimo",
+    "size": "1/100"
+  },
+  "central_bank": {
+    "name": "Central Bank of Uruguay",
+    "url": "http://www.bcu.gub.uy"
+  },
+  "users": [
+    "Uruguay"
+  ]
+}

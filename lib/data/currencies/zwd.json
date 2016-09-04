@@ -1,0 +1,23 @@
+{
+  "name": "Zimbabwe Dollar",
+  "code": "ZWD",
+  "display": "Z$",
+  "representations": {
+    "unicode_decimal": [
+      90,
+      36
+    ],
+    "html": "&#90;&#36;"
+  },
+  "minor_unit": {
+    "name": "Cent",
+    "size": "1/100"
+  },
+  "central_bank": {
+    "name": "Reserve Bank of Zimbabwe",
+    "url": "http://www.rbz.co.zw"
+  },
+  "users": [
+    "Zimbabwe"
+  ]
+}
