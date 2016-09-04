@@ -7,7 +7,11 @@ defmodule Currencies.Mixfile do
      elixir: "~> 1.3",
      build_embedded: Mix.env == :prod,
      start_permanent: Mix.env == :prod,
-     deps: deps()]
+     deps: deps,
+     description: description,
+     package: package,
+     docs: [extras: ["README.md"]]
+    ]
   end
 
   # Configuration for the OTP application
@@ -27,15 +31,23 @@ defmodule Currencies.Mixfile do
   #
   # Type "mix help deps" for more examples and options
   defp deps do
-    [{:poison, "~> 2.0"}]
+    [{:poison, "~> 2.0"},
+      {:earmark, ">= 0.0.0", only: :dev},
+      {:ex_doc, ">= 0.0.0", only: :dev}]
+  end
+
+  defp description do
+    """
+    Currencies is a collection of all sorts of useful information for every currency in the ISO 4217 standard.
+    """
   end
 
   def package do
     [ name: :currencies,
-      files: ["lib", "mix.exs"],
+      files: ["lib", "priv", "mix.exs", "README*", "readme*", "LICENSE*", "license*"],
       maintainers: ["Kriztian Jake Sta. Teresa"],
       licenses: ["MIT"],
-      links: %{"Github" => "https://github.com/nithinbekal/google_books.ex"},
+      links: %{"Github" => "https://github.com/JakeStaTeresa/Currencies"},
     ]
   end
 end
