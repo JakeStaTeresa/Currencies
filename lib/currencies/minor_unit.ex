@@ -8,7 +8,6 @@ defmodule Currencies.MinorUnit do
    * `:symbol` - the symbol of the minor unit
   """
 
-  @derive [Poison.Encoder]
   defstruct [:name, :size, :symbol]
 
   @type t :: %__MODULE__{

@@ -7,7 +7,6 @@ defmodule Currencies.Representations do
    * `:html` - the html representation of the currency symbol
   """
 
-  @derive [Poison.Encoder]
   defstruct [:unicode_decimal, :html]
 
   @type t :: %__MODULE__{

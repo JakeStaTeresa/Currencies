@@ -7,7 +7,6 @@ defmodule Currencies.CentralBank do
    * `:url` - the url of the central bank
   """
 
-  @derive [Poison.Encoder]
   defstruct [:name, :url]
 
   @type t :: %__MODULE__{

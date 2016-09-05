@@ -13,7 +13,6 @@ defmodule Currencies.Currency do
    * `:users` - contains places or countries using the currency
   """
 
-  @derive [Poison.Encoder]
   defstruct [:code, :name, :display, :representations, :minor_unit, :central_bank, :nicknames, :users]
 
   @type t :: %__MODULE__{

@@ -3,11 +3,6 @@ defmodule Currencies do
   Specialized functions that return Currencies.
   """
 
-  alias Currencies.Currency
-  alias Currencies.CentralBank
-  alias Currencies.Representations
-  alias Currencies.MinorUnit
-
   @doc """
   Returns all currencies matching the given predicate
 
@@ -38,10 +33,9 @@ defmodule Currencies do
     162
   """
   def all do
-    data_path("currencies.json") |>
+    data_path("currencies.bin") |>
       File.read! |>
-      Poison.decode!(as: [ %Currency{} ]) |>
-      Enum.map(&(get(&1.code)))
+      :erlang.binary_to_term
   end
 
   @doc """
@@ -61,9 +55,8 @@ defmodule Currencies do
     "McDonald Islands"]}
   """
   def get(currency_code) when is_binary(currency_code) do
-      data_path(Path.join("currencies", String.downcase(currency_code) <> ".json")) |>
-      File.read! |>
-      Poison.decode!(as: %Currency{representations: %Representations{}, minor_unit: %MinorUnit{}, central_bank: %CentralBank{}})
+      filter(&(String.downcase(&1.code) == String.downcase(currency_code))) |>
+        Enum.at(0, :not_found)
   end
 
   defp data_path(path) when is_binary(path) do
