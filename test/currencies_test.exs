@@ -10,27 +10,20 @@ defmodule CurrenciesTest do
   end
 
   test "filter returns empty when no matches are found" do
-    currencies = Currencies.filter(fn(it)-> false end)
+    currencies = Currencies.filter(&(String.contains?(&1.code, "OmgWtfBbq")))
     assert is_list(currencies)
     assert Enum.count(currencies) == 0
   end
 
   test "filter returns some when matches are found" do
-    currencies = Currencies.filter(fn(it)-> String.contains?(it.name, "Peso") end)
+    currencies = Currencies.filter(&(String.contains?(&1.name, "Peso")))
     assert is_list(currencies)
     assert Enum.count(currencies) == 9
     assert Enum.at(currencies, 0, nil).__struct__ == Currencies.Currency
   end
 
-  test "get throws :enoent when currency code is not found" do
-    try do
-      Currencies.get("OMGWTFBBQ")
-    rescue
-      e in File.Error ->
-        assert e.action == "read file"
-        assert Path.relative_to_cwd(e.path) == "lib/data/currencies/omgwtfbbq.json"
-        assert e.reason == :enoent
-    end
+  test "get returns not_found when currency code is not found" do
+    assert Currencies.get("OMGWTFBBQ") == :not_found
   end
 
   test "get returns a currency with basic properties" do
