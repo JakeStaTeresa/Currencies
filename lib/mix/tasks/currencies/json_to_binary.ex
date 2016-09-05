@@ -15,6 +15,7 @@ defmodule Mix.Tasks.Currencies.JsonToBinary do
   """
   def run(_) do
     File.write! "lib/data/currencies.bin", :erlang.term_to_binary(load_currencies)
+    Path
   end
 
   defp load_currencies do
