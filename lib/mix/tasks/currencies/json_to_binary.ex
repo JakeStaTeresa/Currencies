@@ -1,4 +1,8 @@
 defmodule Mix.Tasks.Currencies.JsonToBinary do
+  @moduledoc """
+  Mix task for exporting the json data to a binary serialised file.
+  Only used for development
+  """
   use Mix.Task
 
   alias Currencies.Currency
@@ -6,6 +10,9 @@ defmodule Mix.Tasks.Currencies.JsonToBinary do
   alias Currencies.Representations
   alias Currencies.MinorUnit
 
+  @doc """
+  Runs the json_to_binary task
+  """
   def run(_) do
     File.write! "lib/data/currencies.bin", :erlang.term_to_binary(load_currencies)
   end
