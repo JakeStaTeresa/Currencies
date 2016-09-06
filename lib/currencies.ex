@@ -3,11 +3,26 @@ defmodule Currencies do
   Specialized functions that return Currencies.
   """
 
+  alias Currencies.Currency
+  alias Currencies.CentralBank
+  alias Currencies.Representations
+  alias Currencies.MinorUnit
+
   # Pre-loads currency data at compile time
-  @currencies Path.join("data", "currencies.bin") |>
-    Path.expand(__DIR__) |>
-    File.read! |>
-    :erlang.binary_to_term
+  data_path = fn (path) ->
+    Path.join("data", path) |> Path.expand(__DIR__)
+  end
+
+  load_currency = fn(currency_code) ->
+      data_path.(Path.join("currencies", String.downcase(currency_code) <> ".json")) |>
+      File.read! |>
+      Poison.decode!(as: %Currency{representations: %Representations{}, minor_unit: %MinorUnit{}, central_bank: %CentralBank{}})
+  end
+
+  @currencies data_path.("currencies.json") |>
+      File.read! |>
+      Poison.decode!(as: [ %Currency{} ]) |>
+      Enum.map(&(load_currency.(&1.code)))
 
   @doc """
   Returns all currencies matching the given predicate
@@ -89,4 +104,5 @@ defmodule Currencies do
       filter(&(String.downcase(&1.code) == String.downcase(currency_code))) |>
         Enum.at(0, :not_found)
   end
+
 end
