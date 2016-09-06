@@ -8,7 +8,7 @@ Add `currencies` to your list of dependencies in `mix.exs`:
 
 ```elixir
 def deps do
-  [{:currencies, "~> 0.2.0"}]
+  [{:currencies, "~> 0.3.0"}]
 end
 ```
 
@@ -28,6 +28,22 @@ Find currency by code.
 
 ```Elixir
 Countries.get("AUD")
+# %Currencies.Currency{central_bank: %Currencies.CentralBank{name: "Reserve Bank of Australia",
+#   url: "http://www.rba.gov.au"}, code: "AUD", display: "$",
+#  minor_unit: %Currencies.MinorUnit{name: "Cent", size: "1/100", symbol: "c"},
+#  name: "Australia Dollar", nicknames: ["Buck", "Dough"],
+#  representations: %Currencies.Representations{html: "&#36;",
+#   unicode_decimal: '$'},
+#  users: ["Australia", "Christmas Island", "Cocos (Keeling) Islands", "Kiribati",
+#   "Nauru", "Norfolk Island", "Ashmore and Cartier Islands",
+#   "Australian Antarctic Territory", "Coral Sea Islands", "Heard Island",
+#   "McDonald Islands"]}
+```
+
+Find currency by code using symbol.
+
+```Elixir
+Countries.get(:aud)
 # %Currencies.Currency{central_bank: %Currencies.CentralBank{name: "Reserve Bank of Australia",
 #   url: "http://www.rba.gov.au"}, code: "AUD", display: "$",
 #  minor_unit: %Currencies.MinorUnit{name: "Cent", size: "1/100", symbol: "c"},
