@@ -43,7 +43,7 @@ Countries.get("AUD")
 Find currency by code using symbol.
 
 ```Elixir
-Countries.get("AUD")
+Countries.get(:aud)
 # %Currencies.Currency{central_bank: %Currencies.CentralBank{name: "Reserve Bank of Australia",
 #   url: "http://www.rba.gov.au"}, code: "AUD", display: "$",
 #  minor_unit: %Currencies.MinorUnit{name: "Cent", size: "1/100", symbol: "c"},
