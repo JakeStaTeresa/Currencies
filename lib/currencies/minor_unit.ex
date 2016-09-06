@@ -14,7 +14,7 @@ defmodule Currencies.MinorUnit do
   @type t :: %__MODULE__{
               name: String.t,
               display: String.t,
-              size_to_unit: String.t,
+              size_to_unit: integer,
               symbol: String.t
             }
 end
