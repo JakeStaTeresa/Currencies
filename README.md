@@ -1,4 +1,4 @@
-Currencies [![Build Status](https://travis-ci.org/JakeStaTeresa/Currencies.svg?branch=master)](https://travis-ci.org/JakeStaTeresa/Currencies) [![Coverage Status](https://coveralls.io/repos/github/JakeStaTeresa/Currencies/badge.svg?branch=master?omg=wtfbbq)](https://coveralls.io/github/JakeStaTeresa/Currencies) [![hex.pm version](https://img.shields.io/hexpm/v/currencies.svg)](https://hex.pm/packages/currencies) [![hex.pm downloads](https://img.shields.io/hexpm/dt/currencies.svg)](https://hex.pm/packages/currencies)
+Currencies [![Build Status](https://travis-ci.org/JakeStaTeresa/Currencies.svg?branch=master)](https://travis-ci.org/JakeStaTeresa/Currencies) [![Coverage Status](https://coveralls.io/repos/github/JakeStaTeresa/Currencies/badge.svg?branch=master)](https://coveralls.io/github/JakeStaTeresa/Currencies) [![hex.pm version](https://img.shields.io/hexpm/v/currencies.svg)](https://hex.pm/packages/currencies) [![hex.pm downloads](https://img.shields.io/hexpm/dt/currencies.svg)](https://hex.pm/packages/currencies)
 ============
 
 Currencies is a collection of all sorts of useful information for every currency in the ISO 4217 standard.
