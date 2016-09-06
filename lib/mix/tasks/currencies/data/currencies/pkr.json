@@ -1,7 +1,6 @@
 {
   "name": "Pakistan Rupee",
   "code": "PKR",
-  "display": "₨",
   "representations": {
     "unicode_decimal": [
       8360
@@ -10,7 +9,8 @@
   },
   "minor_unit": {
     "name": "Paisa",
-    "size": "1/100"
+    "display": "1/100",
+    "size_to_unit": 100
   },
   "central_bank": {
     "name": "State Bank of Pakistan",
@@ -18,5 +18,11 @@
   },
   "users": [
     "Pakistan"
-  ]
+  ],
+  "symbol": "₨",
+  "alternate_symbols": [
+    "Rs"
+  ],
+  "iso_numeric": "586",
+  "disambiguate_symbol": "PKR"
 }

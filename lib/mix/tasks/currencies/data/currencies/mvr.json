@@ -3,7 +3,8 @@
   "name": "Maldives (Maldive Islands) Rufiyaa",
   "minor_unit": {
     "name": "Laari",
-    "size": "1/100"
+    "display": "1/100",
+    "size_to_unit": 100
   },
   "central_bank": {
     "name": "Maldives Monetary Authority",
@@ -11,5 +12,12 @@
   },
   "users": [
     "Maldives (Maldive Islands)"
-  ]
+  ],
+  "alternate_symbols": [
+    "MRF",
+    "Rf",
+    "/-",
+    "ރ"
+  ],
+  "iso_numeric": "462"
 }

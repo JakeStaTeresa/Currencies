@@ -3,7 +3,8 @@
   "name": "Madagascar Ariary",
   "minor_unit": {
     "name": "Iraimbilanja",
-    "size": "1/5"
+    "display": "1/5",
+    "size_to_unit": 5
   },
   "central_bank": {
     "name": "Banque Centrale de Madagascar",
@@ -11,5 +12,6 @@
   },
   "users": [
     "Madagascar"
-  ]
+  ],
+  "iso_numeric": "969"
 }

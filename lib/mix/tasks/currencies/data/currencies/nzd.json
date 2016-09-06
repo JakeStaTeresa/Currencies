@@ -1,7 +1,6 @@
 {
   "name": "New Zealand Dollar",
   "code": "NZD",
-  "display": "$",
   "representations": {
     "unicode_decimal": [
       36
@@ -10,8 +9,9 @@
   },
   "minor_unit": {
     "name": "Cent",
-    "size": "1/100",
-    "symbol": "c"
+    "symbol": "c",
+    "display": "1/100",
+    "size_to_unit": 100
   },
   "central_bank": {
     "name": "Reserve Bank of New Zealand",
@@ -23,5 +23,11 @@
     "Niue",
     "Pitcairn Islands",
     "Tokelau"
-  ]
+  ],
+  "symbol": "$",
+  "alternate_symbols": [
+    "NZ$"
+  ],
+  "iso_numeric": "554",
+  "disambiguate_symbol": "NZ$"
 }

@@ -3,7 +3,8 @@
   "name": "Morocco Dirham",
   "minor_unit": {
     "name": "Santim",
-    "size": "1/100"
+    "display": "1/100",
+    "size_to_unit": 100
   },
   "central_bank": {
     "name": "Bank Al-Maghrib",
@@ -12,5 +13,6 @@
   "users": [
     "Morocco",
     "Western Sahara"
-  ]
+  ],
+  "iso_numeric": "504"
 }

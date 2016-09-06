@@ -3,5 +3,10 @@
   "name": "Congo/Kinshasa Franc",
   "users": [
     "Congo/Kinshasa"
-  ]
+  ],
+  "alternate_symbols": [
+    "FC"
+  ],
+  "iso_numeric": "976",
+  "disambiguate_symbol": "FC"
 }

@@ -1,7 +1,6 @@
 {
   "name": "Mongolia Tughrik",
   "code": "MNT",
-  "display": "₮",
   "representations": {
     "unicode_decimal": [
       8366
@@ -10,7 +9,8 @@
   },
   "minor_unit": {
     "name": "Möngö",
-    "size": "1/100"
+    "display": "1/100",
+    "size_to_unit": 100
   },
   "central_bank": {
     "name": "Bank of Mongolia",
@@ -21,5 +21,7 @@
   ],
   "users": [
     "Mongolia"
-  ]
+  ],
+  "symbol": "₮",
+  "iso_numeric": "496"
 }

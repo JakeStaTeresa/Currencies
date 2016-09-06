@@ -4,15 +4,17 @@ defmodule Currencies.MinorUnit do
 
   It contains the following fields:
    * `:name` - the name of the minor unit
-   * `:size` - the size of the minor unit in relation to the currency
+   * `:display` - the display ratio value of the of the minor unit in relation to the currency
+   * `:size_to_unit` - the size_to_unit of the minor unit in relation to the currency
    * `:symbol` - the symbol of the minor unit
   """
 
-  defstruct [:name, :size, :symbol]
+  defstruct [:name, :display, :size_to_unit, :symbol]
 
   @type t :: %__MODULE__{
               name: String.t,
-              size: String.t,
+              display: String.t,
+              size_to_unit: String.t,
               symbol: String.t
             }
 end

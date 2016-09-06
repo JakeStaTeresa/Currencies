@@ -1,7 +1,6 @@
 {
   "name": "Mauritius Rupee",
   "code": "MUR",
-  "display": "₨",
   "representations": {
     "unicode_decimal": [
       8360
@@ -10,7 +9,8 @@
   },
   "minor_unit": {
     "name": "Cent",
-    "size": "1/100"
+    "display": "1/100",
+    "size_to_unit": 100
   },
   "central_bank": {
     "name": "Bank of Mauritius",
@@ -18,5 +18,7 @@
   },
   "users": [
     "Mauritius"
-  ]
+  ],
+  "symbol": "₨",
+  "iso_numeric": "480"
 }

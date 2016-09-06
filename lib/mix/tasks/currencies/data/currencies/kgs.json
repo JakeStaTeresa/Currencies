@@ -1,7 +1,6 @@
 {
   "name": "Kyrgyzstan Som",
   "code": "KGS",
-  "display": "лв",
   "representations": {
     "unicode_decimal": [
       1083,
@@ -11,5 +10,10 @@
   },
   "users": [
     "Kyrgyzstan"
-  ]
+  ],
+  "symbol": "лв",
+  "alternate_symbols": [
+    "сом"
+  ],
+  "iso_numeric": "417"
 }

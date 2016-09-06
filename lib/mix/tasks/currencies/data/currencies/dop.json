@@ -1,7 +1,6 @@
 {
   "name": "Dominican Republic Peso",
   "code": "DOP",
-  "display": "RD$",
   "representations": {
     "unicode_decimal": [
       82,
@@ -12,7 +11,8 @@
   },
   "minor_unit": {
     "name": "Centavo",
-    "size": "1/100"
+    "display": "1/100",
+    "size_to_unit": 100
   },
   "central_bank": {
     "name": "Central Bank of the Dominican Republic",
@@ -20,5 +20,11 @@
   },
   "users": [
     "Dominican Republic"
-  ]
+  ],
+  "symbol": "RD$",
+  "alternate_symbols": [
+    "RD$"
+  ],
+  "iso_numeric": "214",
+  "disambiguate_symbol": "RD$"
 }

@@ -1,7 +1,6 @@
 {
   "name": "Nicaragua Cordoba",
   "code": "NIO",
-  "display": "C$",
   "representations": {
     "unicode_decimal": [
       67,
@@ -11,7 +10,8 @@
   },
   "minor_unit": {
     "name": "Centavos",
-    "size": "1/100"
+    "display": "1/100",
+    "size_to_unit": 100
   },
   "central_bank": {
     "name": "Central Bank of Nicaragua",
@@ -19,5 +19,7 @@
   },
   "users": [
     "Nicaragua"
-  ]
+  ],
+  "symbol": "C$",
+  "iso_numeric": "558"
 }

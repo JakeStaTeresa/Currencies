@@ -1,7 +1,6 @@
 {
   "name": "Jersey Pound",
   "code": "JEP",
-  "display": "£",
   "representations": {
     "unicode_decimal": [
       163
@@ -10,10 +9,12 @@
   },
   "minor_unit": {
     "name": "Penny",
-    "size": "1/100",
-    "symbol": "p"
+    "symbol": "p",
+    "display": "1/100",
+    "size_to_unit": 100
   },
   "users": [
     "Jersey"
-  ]
+  ],
+  "symbol": "£"
 }

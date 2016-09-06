@@ -3,7 +3,8 @@
   "name": "Communauté Financière Africaine (BEAC) CFA Franc BEAC",
   "minor_unit": {
     "name": "Centime",
-    "size": "1/100"
+    "display": "1/100",
+    "size_to_unit": 100
   },
   "central_bank": {
     "name": "Bank of Central African States",
@@ -17,5 +18,10 @@
     "Congo/Brazzaville",
     "Equatorial Guinea",
     "Gabon"
-  ]
+  ],
+  "alternate_symbols": [
+    "FCFA"
+  ],
+  "iso_numeric": "950",
+  "disambiguate_symbol": "FCFA"
 }

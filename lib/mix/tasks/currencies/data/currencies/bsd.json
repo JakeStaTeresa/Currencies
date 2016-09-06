@@ -1,7 +1,6 @@
 {
   "name": "Bahamas Dollar",
   "code": "BSD",
-  "display": "$",
   "representations": {
     "unicode_decimal": [
       36
@@ -10,7 +9,8 @@
   },
   "minor_unit": {
     "name": "Cent",
-    "size": "1/100"
+    "display": "1/100",
+    "size_to_unit": 100
   },
   "central_bank": {
     "name": "The Bahamas Central Bank",
@@ -18,5 +18,11 @@
   },
   "users": [
     "Bahamas"
-  ]
+  ],
+  "symbol": "$",
+  "alternate_symbols": [
+    "B$"
+  ],
+  "iso_numeric": "044",
+  "disambiguate_symbol": "BSD"
 }

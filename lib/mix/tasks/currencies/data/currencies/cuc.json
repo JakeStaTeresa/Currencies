@@ -3,8 +3,9 @@
   "name": "Cuba Convertible Peso",
   "minor_unit": {
     "name": "Centavo Convertible",
-    "size": "1/100",
-    "symbol": "¢"
+    "symbol": "¢",
+    "display": "1/100",
+    "size_to_unit": 100
   },
   "central_bank": {
     "name": "Central Bank of Cuba",
@@ -15,5 +16,10 @@
   ],
   "users": [
     "Cuba"
-  ]
+  ],
+  "alternate_symbols": [
+    "CUC$"
+  ],
+  "iso_numeric": "931",
+  "disambiguate_symbol": "CUC$"
 }

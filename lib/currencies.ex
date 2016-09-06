@@ -43,20 +43,47 @@ defmodule Currencies do
   end
 
   @doc """
+  Returns a single currency given its currency code as a symbol
+
+  ## Examples
+    iex> Currencies.get(:aud)
+    %Currencies.Currency{alternate_symbols: ["A$"],
+    central_bank: %Currencies.CentralBank{name: "Reserve Bank of Australia",
+    url: "http://www.rba.gov.au"}, code: "AUD",
+    disambiguate_symbol: "A$", iso_numeric: "036",
+    minor_unit: %Currencies.MinorUnit{display: "1/100", name: "Cent",
+    size_to_unit: 100, symbol: "c"}, name: "Australia Dollar",
+    nicknames: ["Buck", "Dough"],
+    representations: %Currencies.Representations{html: "&#36;",
+    unicode_decimal: '$'}, symbol: "$",
+    users: ["Australia", "Christmas Island", "Cocos (Keeling) Islands",
+    "Kiribati", "Nauru", "Norfolk Island",
+    "Ashmore and Cartier Islands", "Australian Antarctic Territory",
+    "Coral Sea Islands", "Heard Island", "McDonald Islands"]}
+  """
+  def get(currency_code) when is_atom(currency_code) do
+   currency_code |> Atom.to_string
+    |> get
+  end
+
+  @doc """
   Returns a single currency given its currency code
 
   ## Examples
     iex> Currencies.get("AUD")
-    %Currencies.Currency{central_bank: %Currencies.CentralBank{name: "Reserve Bank of Australia",
-    url: "http://www.rba.gov.au"}, code: "AUD", display: "$",
-    minor_unit: %Currencies.MinorUnit{name: "Cent", size: "1/100", symbol: "c"},
-    name: "Australia Dollar", nicknames: ["Buck", "Dough"],
+    %Currencies.Currency{alternate_symbols: ["A$"],
+    central_bank: %Currencies.CentralBank{name: "Reserve Bank of Australia",
+    url: "http://www.rba.gov.au"}, code: "AUD",
+    disambiguate_symbol: "A$", iso_numeric: "036",
+    minor_unit: %Currencies.MinorUnit{display: "1/100", name: "Cent",
+    size_to_unit: 100, symbol: "c"}, name: "Australia Dollar",
+    nicknames: ["Buck", "Dough"],
     representations: %Currencies.Representations{html: "&#36;",
-    unicode_decimal: '$'},
-    users: ["Australia", "Christmas Island", "Cocos (Keeling) Islands", "Kiribati",
-    "Nauru", "Norfolk Island", "Ashmore and Cartier Islands",
-    "Australian Antarctic Territory", "Coral Sea Islands", "Heard Island",
-    "McDonald Islands"]}
+    unicode_decimal: '$'}, symbol: "$",
+    users: ["Australia", "Christmas Island", "Cocos (Keeling) Islands",
+    "Kiribati", "Nauru", "Norfolk Island",
+    "Ashmore and Cartier Islands", "Australian Antarctic Territory",
+    "Coral Sea Islands", "Heard Island", "McDonald Islands"]}
   """
   def get(currency_code) when is_binary(currency_code) do
       filter(&(String.downcase(&1.code) == String.downcase(currency_code))) |>

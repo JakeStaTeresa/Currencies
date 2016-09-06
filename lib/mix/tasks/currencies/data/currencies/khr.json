@@ -1,7 +1,6 @@
 {
   "name": "Cambodia Riel",
   "code": "KHR",
-  "display": "៛",
   "representations": {
     "unicode_decimal": [
       6107
@@ -10,7 +9,8 @@
   },
   "minor_unit": {
     "name": "Kak",
-    "size": "1/10"
+    "display": "1/10",
+    "size_to_unit": 10
   },
   "central_bank": {
     "name": "National Bank of Cambodia",
@@ -18,5 +18,7 @@
   },
   "users": [
     "Cambodia"
-  ]
+  ],
+  "symbol": "៛",
+  "iso_numeric": "116"
 }

@@ -3,7 +3,8 @@
   "name": "Burundi Franc",
   "minor_unit": {
     "name": "Centime",
-    "size": "1/100"
+    "display": "1/100",
+    "size_to_unit": 100
   },
   "central_bank": {
     "name": "Banque de la Republique du Burundi",
@@ -11,5 +12,10 @@
   },
   "users": [
     "Burundi"
-  ]
+  ],
+  "alternate_symbols": [
+    "FBu"
+  ],
+  "iso_numeric": "108",
+  "disambiguate_symbol": "FBu"
 }

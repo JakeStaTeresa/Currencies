@@ -1,7 +1,6 @@
 {
   "name": "Suriname Dollar",
   "code": "SRD",
-  "display": "$",
   "representations": {
     "unicode_decimal": [
       36
@@ -10,5 +9,8 @@
   },
   "users": [
     "Suriname"
-  ]
+  ],
+  "symbol": "$",
+  "iso_numeric": "968",
+  "disambiguate_symbol": "SRD"
 }

@@ -2,7 +2,6 @@
   "name": "Denmark Krone",
   "code": "DKK",
   "description": "This symbol is composed of two sequential characters: a lower case \"k\" followed by a lower case \"r\".",
-  "display": "kr",
   "representations": {
     "unicode_decimal": [
       107,
@@ -12,7 +11,8 @@
   },
   "minor_unit": {
     "name": "Øre",
-    "size": "1/100"
+    "display": "1/100",
+    "size_to_unit": 100
   },
   "central_bank": {
     "name": "Danmarks Nationalbank",
@@ -22,5 +22,11 @@
     "Denmark",
     "Faroe Islands",
     "Greenland"
-  ]
+  ],
+  "symbol": "kr",
+  "alternate_symbols": [
+    ",-"
+  ],
+  "iso_numeric": "208",
+  "disambiguate_symbol": "DKK"
 }

@@ -1,7 +1,6 @@
 {
   "name": "Fiji Dollar",
   "code": "FJD",
-  "display": "$",
   "representations": {
     "unicode_decimal": [
       36
@@ -10,10 +9,17 @@
   },
   "minor_unit": {
     "name": "Cent",
-    "size": "1/100",
-    "symbol": "¢"
+    "symbol": "¢",
+    "display": "1/100",
+    "size_to_unit": 100
   },
   "users": [
     "Fiji"
-  ]
+  ],
+  "symbol": "$",
+  "alternate_symbols": [
+    "FJ$"
+  ],
+  "iso_numeric": "242",
+  "disambiguate_symbol": "FJ$"
 }

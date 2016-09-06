@@ -3,9 +3,14 @@
   "name": "Kuwait Dinar",
   "minor_unit": {
     "name": "Fils",
-    "size": "1/1000"
+    "display": "1/1000",
+    "size_to_unit": 1000
   },
   "users": [
     "Kuwait"
-  ]
+  ],
+  "alternate_symbols": [
+    "K.D."
+  ],
+  "iso_numeric": "414"
 }

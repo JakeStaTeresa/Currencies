@@ -1,7 +1,6 @@
 {
   "name": "Yemen Rial",
   "code": "YER",
-  "display": "﷼",
   "representations": {
     "unicode_decimal": [
       65020
@@ -10,7 +9,8 @@
   },
   "minor_unit": {
     "name": "Fils",
-    "size": "1/100"
+    "display": "1/100",
+    "size_to_unit": 100
   },
   "central_bank": {
     "name": "Central Bank of Yemen",
@@ -18,5 +18,7 @@
   },
   "users": [
     "Yemen"
-  ]
+  ],
+  "symbol": "﷼",
+  "iso_numeric": "886"
 }

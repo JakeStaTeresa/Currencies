@@ -3,7 +3,8 @@
   "name": "Sudan Pound",
   "minor_unit": {
     "name": "Piastres",
-    "size": "1/100"
+    "display": "1/100",
+    "size_to_unit": 100
   },
   "central_bank": {
     "name": "Central Bank of Sudan",
@@ -11,5 +12,7 @@
   },
   "users": [
     "Sudan"
-  ]
+  ],
+  "iso_numeric": "938",
+  "disambiguate_symbol": "SDG"
 }

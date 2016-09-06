@@ -1,7 +1,6 @@
 {
   "name": "United States Dollar",
   "code": "USD",
-  "display": "$",
   "representations": {
     "unicode_decimal": [
       36
@@ -10,8 +9,9 @@
   },
   "minor_unit": {
     "name": "Cent",
-    "size": "1/100",
-    "symbol": "¢"
+    "symbol": "¢",
+    "display": "1/100",
+    "size_to_unit": 100
   },
   "central_bank": {
     "name": "Federal Reserve Bank",
@@ -48,5 +48,11 @@
     "United States Minor Outlying Islands",
     "Wake Island",
     "East Timor"
-  ]
+  ],
+  "symbol": "$",
+  "alternate_symbols": [
+    "US$"
+  ],
+  "iso_numeric": "840",
+  "disambiguate_symbol": "US$"
 }

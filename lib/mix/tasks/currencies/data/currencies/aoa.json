@@ -3,7 +3,8 @@
   "name": "Angola Kwanza",
   "minor_unit": {
     "name": "cêntimos",
-    "size": "1/100"
+    "display": "1/100",
+    "size_to_unit": 100
   },
   "central_bank": {
     "name": "Banco Nacional de Angola",
@@ -11,5 +12,6 @@
   },
   "users": [
     "Angola"
-  ]
+  ],
+  "iso_numeric": "973"
 }

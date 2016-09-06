@@ -3,7 +3,8 @@
   "name": "Algeria Dinar",
   "minor_unit": {
     "name": "Santeem",
-    "size": "1/100"
+    "display": "1/100",
+    "size_to_unit": 100
   },
   "central_bank": {
     "name": "Bank of Algeria",
@@ -11,5 +12,9 @@
   },
   "users": [
     "Algeria"
-  ]
+  ],
+  "alternate_symbols": [
+    "DA"
+  ],
+  "iso_numeric": "012"
 }

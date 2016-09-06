@@ -1,7 +1,6 @@
 {
   "name": "Mozambique Metical",
   "code": "MZN",
-  "display": "MT",
   "representations": {
     "unicode_decimal": [
       77,
@@ -11,7 +10,8 @@
   },
   "minor_unit": {
     "name": "Centavo",
-    "size": "1/100"
+    "display": "1/100",
+    "size_to_unit": 100
   },
   "central_bank": {
     "name": "Banco de Moçambique",
@@ -19,5 +19,10 @@
   },
   "users": [
     "Mozambique"
-  ]
+  ],
+  "symbol": "MT",
+  "alternate_symbols": [
+    "MZN"
+  ],
+  "iso_numeric": "943"
 }

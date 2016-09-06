@@ -3,5 +3,10 @@
   "name": "Lesotho Loti",
   "users": [
     "Lesotho"
-  ]
+  ],
+  "alternate_symbols": [
+    "M"
+  ],
+  "iso_numeric": "426",
+  "disambiguate_symbol": "M"
 }

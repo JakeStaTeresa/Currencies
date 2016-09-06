@@ -3,7 +3,8 @@
   "name": "Communauté Financière Africaine (BCEAO) Franc",
   "minor_unit": {
     "name": "Centime",
-    "size": "1/100"
+    "display": "1/100",
+    "size_to_unit": 100
   },
   "central_bank": {
     "name": "Bank of Central African States",
@@ -19,5 +20,10 @@
     "Niger",
     "Senegal",
     "Togo"
-  ]
+  ],
+  "alternate_symbols": [
+    "CFA"
+  ],
+  "iso_numeric": "952",
+  "disambiguate_symbol": "CFA"
 }

@@ -1,7 +1,6 @@
 {
   "name": "Namibia Dollar",
   "code": "NAD",
-  "display": "$",
   "representations": {
     "unicode_decimal": [
       36
@@ -10,8 +9,9 @@
   },
   "minor_unit": {
     "name": "Cent",
-    "size": "1/100",
-    "symbol": "c"
+    "symbol": "c",
+    "display": "1/100",
+    "size_to_unit": 100
   },
   "central_bank": {
     "name": "Bank of Namibia",
@@ -19,5 +19,11 @@
   },
   "users": [
     "Namibia"
-  ]
+  ],
+  "symbol": "$",
+  "alternate_symbols": [
+    "N$"
+  ],
+  "iso_numeric": "516",
+  "disambiguate_symbol": "N$"
 }

@@ -3,5 +3,9 @@
   "name": "International Monetary Fund (IMF) Special Drawing Rights",
   "users": [
     "International Monetary Fund (IMF)"
-  ]
+  ],
+  "alternate_symbols": [
+    "XDR"
+  ],
+  "iso_numeric": "960"
 }

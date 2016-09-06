@@ -3,5 +3,10 @@
   "name": "Tunisia Dinar",
   "users": [
     "Tunisia"
-  ]
+  ],
+  "alternate_symbols": [
+    "TD",
+    "DT"
+  ],
+  "iso_numeric": "788"
 }

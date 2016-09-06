@@ -1,7 +1,6 @@
 {
   "name": "Euro Member Countries",
   "code": "EUR",
-  "display": "€",
   "representations": {
     "unicode_decimal": [
       8364
@@ -10,8 +9,9 @@
   },
   "minor_unit": {
     "name": "Cent",
-    "size": "1/100",
-    "symbol": "cent"
+    "symbol": "cent",
+    "display": "1/100",
+    "size_to_unit": 100
   },
   "central_bank": {
     "name": "European Central Bank",
@@ -22,5 +22,7 @@
     "Leru (Spanish)",
     "Yoyo (Irish English)",
     "Teuro (German)"
-  ]
+  ],
+  "symbol": "€",
+  "iso_numeric": "978"
 }

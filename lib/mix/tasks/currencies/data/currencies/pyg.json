@@ -1,7 +1,6 @@
 {
   "name": "Paraguay Guarani",
   "code": "PYG",
-  "display": "Gs",
   "representations": {
     "unicode_decimal": [
       71,
@@ -11,7 +10,8 @@
   },
   "minor_unit": {
     "name": "Céntimo",
-    "size": "1/100"
+    "display": "1/100",
+    "size_to_unit": 100
   },
   "central_bank": {
     "name": "Banco Central del Paraguay",
@@ -19,5 +19,7 @@
   },
   "users": [
     "Paraguay"
-  ]
+  ],
+  "symbol": "Gs",
+  "iso_numeric": "600"
 }

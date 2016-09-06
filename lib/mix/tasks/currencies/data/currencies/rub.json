@@ -2,7 +2,6 @@
   "name": "Russia Ruble",
   "code": "RUB",
   "description": "Three cyrillic characters forming the Russian equivalent of \"RUB\".",
-  "display": "руб",
   "representations": {
     "unicode_decimal": [
       1088,
@@ -13,8 +12,9 @@
   },
   "minor_unit": {
     "name": "kopek",
-    "size": "1/100",
-    "symbol": "к."
+    "symbol": "к.",
+    "display": "1/100",
+    "size_to_unit": 100
   },
   "central_bank": {
     "name": "Bank of Russia",
@@ -25,5 +25,11 @@
     "Tajikistan",
     "Abkhazia",
     "South Ossetia"
-  ]
+  ],
+  "symbol": "руб",
+  "alternate_symbols": [
+    "руб.",
+    "р."
+  ],
+  "iso_numeric": "643"
 }

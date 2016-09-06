@@ -1,7 +1,6 @@
 {
   "name": "Egypt Pound",
   "code": "EGP",
-  "display": "£",
   "representations": {
     "unicode_decimal": [
       163
@@ -10,8 +9,9 @@
   },
   "minor_unit": {
     "name": "Piastre",
-    "size": "1/100",
-    "symbol": "Pt"
+    "symbol": "Pt",
+    "display": "1/100",
+    "size_to_unit": 100
   },
   "central_bank": {
     "name": "Central Bank of Egypt",
@@ -20,5 +20,12 @@
   "users": [
     "Egypt",
     "Gaza Strip"
-  ]
+  ],
+  "symbol": "£",
+  "alternate_symbols": [
+    "LE",
+    "E£",
+    "L.E."
+  ],
+  "iso_numeric": "818"
 }

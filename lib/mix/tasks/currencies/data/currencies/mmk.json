@@ -3,7 +3,8 @@
   "name": "Myanmar (Burma) Kyat",
   "minor_unit": {
     "name": "Pya",
-    "size": "1/100"
+    "display": "1/100",
+    "size_to_unit": 100
   },
   "central_bank": {
     "name": "Central Bank of Myanmar",
@@ -11,5 +12,7 @@
   },
   "users": [
     "Myanmar (Burma)"
-  ]
+  ],
+  "iso_numeric": "104",
+  "disambiguate_symbol": "MMK"
 }

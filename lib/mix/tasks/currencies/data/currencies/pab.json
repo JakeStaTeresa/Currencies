@@ -1,7 +1,6 @@
 {
   "name": "Panama Balboa",
   "code": "PAB",
-  "display": "B/.",
   "representations": {
     "unicode_decimal": [
       66,
@@ -12,5 +11,7 @@
   },
   "users": [
     "Panama"
-  ]
+  ],
+  "symbol": "B/.",
+  "iso_numeric": "590"
 }

@@ -2,7 +2,6 @@
   "name": "Peru Sol",
   "code": "PEN",
   "description": "This symbol is composed of three sequential characters: an upper case \"S\" followed by a slash \"/\" followed by a dot \".\".",
-  "display": "S/.",
   "representations": {
     "unicode_decimal": [
       83,
@@ -13,7 +12,8 @@
   },
   "minor_unit": {
     "name": "Céntimo",
-    "size": "1/100"
+    "display": "1/100",
+    "size_to_unit": 100
   },
   "central_bank": {
     "name": "Central Reserve Bank of Peru",
@@ -21,5 +21,7 @@
   },
   "users": [
     "Peru"
-  ]
+  ],
+  "symbol": "S/.",
+  "iso_numeric": "604"
 }

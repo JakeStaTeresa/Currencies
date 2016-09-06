@@ -1,7 +1,6 @@
 {
   "name": "Oman Rial",
   "code": "OMR",
-  "display": "﷼",
   "representations": {
     "unicode_decimal": [
       65020
@@ -10,8 +9,9 @@
   },
   "minor_unit": {
     "name": "Baisa",
-    "size": "1/1000",
-    "symbol": "bz"
+    "symbol": "bz",
+    "display": "1/1000",
+    "size_to_unit": 1000
   },
   "central_bank": {
     "name": "Central Bank of Oman",
@@ -19,5 +19,7 @@
   },
   "users": [
     "Oman"
-  ]
+  ],
+  "symbol": "﷼",
+  "iso_numeric": "512"
 }

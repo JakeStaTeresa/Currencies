@@ -3,7 +3,8 @@
   "name": "Samoa Tala",
   "minor_unit": {
     "name": "Sene",
-    "size": "1/100"
+    "display": "1/100",
+    "size_to_unit": 100
   },
   "central_bank": {
     "name": "Central Bank of Samoa",
@@ -11,5 +12,12 @@
   },
   "users": [
     "Samoa"
-  ]
+  ],
+  "alternate_symbols": [
+    "WS$",
+    "SAT",
+    "ST"
+  ],
+  "iso_numeric": "882",
+  "disambiguate_symbol": "WS$"
 }

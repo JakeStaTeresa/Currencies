@@ -3,7 +3,8 @@
   "name": "Papua New Guinea Kina",
   "minor_unit": {
     "name": "Toea",
-    "size": "1/100"
+    "display": "1/100",
+    "size_to_unit": 100
   },
   "central_bank": {
     "name": "Bank of Papua New Guinea",
@@ -11,5 +12,7 @@
   },
   "users": [
     "Papua New Guinea"
-  ]
+  ],
+  "iso_numeric": "598",
+  "disambiguate_symbol": "PGK"
 }

@@ -4,8 +4,9 @@
   "description": "Introduced March 2012 - no font information available at this time.",
   "minor_unit": {
     "name": "kuruş",
-    "size": "1/100",
-    "symbol": "Kr"
+    "symbol": "Kr",
+    "display": "1/100",
+    "size_to_unit": 100
   },
   "central_bank": {
     "name": "Central Bank of the Republic of Turkey",
@@ -19,5 +20,9 @@
   "users": [
     "Turkey",
     "North Cyprus"
-  ]
+  ],
+  "alternate_symbols": [
+    "TL"
+  ],
+  "iso_numeric": "949"
 }

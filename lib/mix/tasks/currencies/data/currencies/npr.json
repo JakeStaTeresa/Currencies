@@ -1,7 +1,6 @@
 {
   "name": "Nepal Rupee",
   "code": "NPR",
-  "display": "₨",
   "representations": {
     "unicode_decimal": [
       8360
@@ -10,7 +9,8 @@
   },
   "minor_unit": {
     "name": "Paisa",
-    "size": "1/100"
+    "display": "1/100",
+    "size_to_unit": 100
   },
   "central_bank": {
     "name": "Nepal Rastra bank",
@@ -19,5 +19,12 @@
   "users": [
     "Nepal",
     "India (unofficially near India-Nepal border)"
-  ]
+  ],
+  "symbol": "₨",
+  "alternate_symbols": [
+    "Rs",
+    "रू"
+  ],
+  "iso_numeric": "524",
+  "disambiguate_symbol": "NPR"
 }

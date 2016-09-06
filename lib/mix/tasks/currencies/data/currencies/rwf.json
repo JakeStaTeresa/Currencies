@@ -3,9 +3,15 @@
   "name": "Rwanda Franc",
   "minor_unit": {
     "name": "Centime",
-    "size": "1/100"
+    "display": "1/100",
+    "size_to_unit": 100
   },
   "users": [
     "Rwanda"
-  ]
+  ],
+  "alternate_symbols": [
+    "RF",
+    "R₣"
+  ],
+  "iso_numeric": "646"
 }

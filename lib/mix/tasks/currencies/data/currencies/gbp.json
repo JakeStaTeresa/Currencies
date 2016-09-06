@@ -1,7 +1,6 @@
 {
   "name": "United Kingdom Pound",
   "code": "GBP",
-  "display": "£",
   "representations": {
     "unicode_decimal": [
       163
@@ -10,8 +9,9 @@
   },
   "minor_unit": {
     "name": "penny",
-    "size": "1/100",
-    "symbol": "p"
+    "symbol": "p",
+    "display": "1/100",
+    "size_to_unit": 100
   },
   "central_bank": {
     "name": "Bank of England",
@@ -37,5 +37,7 @@
     "Saint Helena and Ascension",
     "South Georgia and the South Sandwich Islands",
     "Tristan da Cunha"
-  ]
+  ],
+  "symbol": "£",
+  "iso_numeric": "826"
 }

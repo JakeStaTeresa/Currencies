@@ -3,7 +3,8 @@
   "name": "Ethiopia Birr",
   "minor_unit": {
     "name": "Santim",
-    "size": "1/100"
+    "display": "1/100",
+    "size_to_unit": 100
   },
   "central_bank": {
     "name": "National Bank of Ethiopia",
@@ -12,5 +13,7 @@
   "users": [
     "Ethiopia",
     "Eritrea"
-  ]
+  ],
+  "iso_numeric": "230",
+  "disambiguate_symbol": "ETB"
 }

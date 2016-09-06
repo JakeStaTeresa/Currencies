@@ -1,7 +1,6 @@
 {
   "name": "Jamaica Dollar",
   "code": "JMD",
-  "display": "J$",
   "representations": {
     "unicode_decimal": [
       74,
@@ -11,8 +10,9 @@
   },
   "minor_unit": {
     "name": "Cent",
-    "size": "1/100",
-    "symbol": "c"
+    "symbol": "c",
+    "display": "1/100",
+    "size_to_unit": 100
   },
   "central_bank": {
     "name": "Bank of Jamaica",
@@ -20,5 +20,11 @@
   },
   "users": [
     "Jamaica"
-  ]
+  ],
+  "symbol": "J$",
+  "alternate_symbols": [
+    "J$"
+  ],
+  "iso_numeric": "388",
+  "disambiguate_symbol": "J$"
 }

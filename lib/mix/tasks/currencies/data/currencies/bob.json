@@ -1,7 +1,6 @@
 {
   "name": "Bolivia Bolíviano",
   "code": "BOB",
-  "display": "$b",
   "representations": {
     "unicode_decimal": [
       36,
@@ -11,7 +10,8 @@
   },
   "minor_unit": {
     "name": "Centavo",
-    "size": "1/100"
+    "display": "1/100",
+    "size_to_unit": 100
   },
   "central_bank": {
     "name": "Banco Central de Bolivia",
@@ -19,5 +19,10 @@
   },
   "users": [
     "Bolivia"
-  ]
+  ],
+  "symbol": "$b",
+  "alternate_symbols": [
+    "Bs"
+  ],
+  "iso_numeric": "068"
 }

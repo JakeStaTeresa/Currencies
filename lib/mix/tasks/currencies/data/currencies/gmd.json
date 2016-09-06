@@ -3,9 +3,11 @@
   "name": "Gambia Dalasi",
   "minor_unit": {
     "name": "Butut",
-    "size": "1/100"
+    "display": "1/100",
+    "size_to_unit": 100
   },
   "users": [
     "Gambia"
-  ]
+  ],
+  "iso_numeric": "270"
 }

@@ -3,8 +3,9 @@
   "name": "Zambia Kwacha",
   "minor_unit": {
     "name": "Ngwee",
-    "size": "1/100",
-    "symbol": "N"
+    "symbol": "N",
+    "display": "1/100",
+    "size_to_unit": 100
   },
   "central_bank": {
     "name": "Bank of Zambia",
@@ -12,5 +13,7 @@
   },
   "users": [
     "Zambia"
-  ]
+  ],
+  "iso_numeric": "967",
+  "disambiguate_symbol": "ZMW"
 }

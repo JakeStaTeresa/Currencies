@@ -1,7 +1,6 @@
 {
   "name": "Albania Lek",
   "code": "ALL",
-  "display": "Lek",
   "representations": {
     "unicode_decimal": [
       76,
@@ -12,7 +11,8 @@
   },
   "minor_unit": {
     "name": "Qindarkë",
-    "size": "1/100"
+    "display": "1/100",
+    "size_to_unit": 100
   },
   "central_bank": {
     "name": "Bank of Albania",
@@ -20,5 +20,11 @@
   },
   "users": [
     "Albania"
-  ]
+  ],
+  "symbol": "Lek",
+  "alternate_symbols": [
+    "Lek"
+  ],
+  "iso_numeric": "008",
+  "disambiguate_symbol": "Lek"
 }

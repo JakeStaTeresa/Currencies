@@ -1,7 +1,6 @@
 {
   "name": "Bosnia and Herzegovina Convertible Marka",
   "code": "BAM",
-  "display": "KM",
   "representations": {
     "unicode_decimal": [
       75,
@@ -11,7 +10,8 @@
   },
   "minor_unit": {
     "name": "Fening",
-    "size": "1/100"
+    "display": "1/100",
+    "size_to_unit": 100
   },
   "central_bank": {
     "name": "Central bank of Bosnia and Herzegovina",
@@ -22,5 +22,10 @@
   ],
   "users": [
     "Bosnia and Herzegovina"
-  ]
+  ],
+  "symbol": "KM",
+  "alternate_symbols": [
+    "KM"
+  ],
+  "iso_numeric": "977"
 }

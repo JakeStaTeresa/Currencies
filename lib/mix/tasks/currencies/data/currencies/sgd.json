@@ -1,7 +1,6 @@
 {
   "name": "Singapore Dollar",
   "code": "SGD",
-  "display": "$",
   "representations": {
     "unicode_decimal": [
       36
@@ -10,8 +9,9 @@
   },
   "minor_unit": {
     "name": "Cent",
-    "size": "1/100",
-    "symbol": "S¢"
+    "symbol": "S¢",
+    "display": "1/100",
+    "size_to_unit": 100
   },
   "central_bank": {
     "name": "Monetary Authority of Singapore",
@@ -22,5 +22,11 @@
   ],
   "users": [
     "Singapore"
-  ]
+  ],
+  "symbol": "$",
+  "alternate_symbols": [
+    "S$"
+  ],
+  "iso_numeric": "702",
+  "disambiguate_symbol": "S$"
 }

@@ -1,7 +1,6 @@
 {
   "name": "Uzbekistan Som",
   "code": "UZS",
-  "display": "лв",
   "representations": {
     "unicode_decimal": [
       1083,
@@ -11,7 +10,8 @@
   },
   "minor_unit": {
     "name": "Tiyin",
-    "size": "1/100"
+    "display": "1/100",
+    "size_to_unit": 100
   },
   "central_bank": {
     "name": "Central bank of the Republic of Uzbekistan",
@@ -19,5 +19,14 @@
   },
   "users": [
     "Uzbekistan"
-  ]
+  ],
+  "symbol": "лв",
+  "alternate_symbols": [
+    "so‘m",
+    "сўм",
+    "сум",
+    "s",
+    "с"
+  ],
+  "iso_numeric": "860"
 }

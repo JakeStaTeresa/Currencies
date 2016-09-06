@@ -1,7 +1,6 @@
 {
   "name": "Aruba Guilder",
   "code": "AWG",
-  "display": "ƒ",
   "representations": {
     "unicode_decimal": [
       402
@@ -10,5 +9,10 @@
   },
   "users": [
     "Aruba"
-  ]
+  ],
+  "symbol": "ƒ",
+  "alternate_symbols": [
+    "Afl"
+  ],
+  "iso_numeric": "533"
 }

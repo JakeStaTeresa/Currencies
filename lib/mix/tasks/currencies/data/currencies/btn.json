@@ -3,7 +3,8 @@
   "name": "Bhutan Ngultrum",
   "minor_unit": {
     "name": "Chhertum",
-    "size": "1/100"
+    "display": "1/100",
+    "size_to_unit": 100
   },
   "central_bank": {
     "name": "Royal Monetary Authority of Bhutan",
@@ -11,5 +12,9 @@
   },
   "users": [
     "Bhutan"
-  ]
+  ],
+  "alternate_symbols": [
+    "Nu"
+  ],
+  "iso_numeric": "064"
 }

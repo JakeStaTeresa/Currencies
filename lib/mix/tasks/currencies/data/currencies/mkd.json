@@ -1,7 +1,6 @@
 {
   "name": "Macedonia Denar",
   "code": "MKD",
-  "display": "ден",
   "representations": {
     "unicode_decimal": [
       1076,
@@ -12,7 +11,8 @@
   },
   "minor_unit": {
     "name": "Deni",
-    "size": "1/100"
+    "display": "1/100",
+    "size_to_unit": 100
   },
   "central_bank": {
     "name": "National Bank of the Republic of Macedonia",
@@ -20,5 +20,7 @@
   },
   "users": [
     "Macedonia"
-  ]
+  ],
+  "symbol": "ден",
+  "iso_numeric": "807"
 }

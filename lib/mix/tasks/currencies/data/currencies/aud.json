@@ -1,7 +1,6 @@
 {
   "name": "Australia Dollar",
   "code": "AUD",
-  "display": "$",
   "representations": {
     "unicode_decimal": [
       36
@@ -10,8 +9,9 @@
   },
   "minor_unit": {
     "name": "Cent",
-    "size": "1/100",
-    "symbol": "c"
+    "symbol": "c",
+    "display": "1/100",
+    "size_to_unit": 100
   },
   "central_bank": {
     "name": "Reserve Bank of Australia",
@@ -33,5 +33,11 @@
     "Coral Sea Islands",
     "Heard Island",
     "McDonald Islands"
-  ]
+  ],
+  "symbol": "$",
+  "alternate_symbols": [
+    "A$"
+  ],
+  "iso_numeric": "036",
+  "disambiguate_symbol": "A$"
 }

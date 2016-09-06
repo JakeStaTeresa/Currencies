@@ -3,7 +3,8 @@
   "name": "Haiti Gourde",
   "minor_unit": {
     "name": "Centime",
-    "size": "1/100"
+    "display": "1/100",
+    "size_to_unit": 100
   },
   "central_bank": {
     "name": "Bank of the Republic of Haiti",
@@ -11,5 +12,6 @@
   },
   "users": [
     "Haiti"
-  ]
+  ],
+  "iso_numeric": "332"
 }

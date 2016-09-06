@@ -1,7 +1,6 @@
 {
   "name": "Iceland Krona",
   "code": "ISK",
-  "display": "kr",
   "representations": {
     "unicode_decimal": [
       107,
@@ -15,5 +14,10 @@
   },
   "users": [
     "Iceland"
-  ]
+  ],
+  "symbol": "kr",
+  "alternate_symbols": [
+    "Íkr"
+  ],
+  "iso_numeric": "352"
 }

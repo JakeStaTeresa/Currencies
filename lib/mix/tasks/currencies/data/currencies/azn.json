@@ -1,7 +1,6 @@
 {
   "name": "Azerbaijan New Manat",
   "code": "AZN",
-  "display": "ман",
   "representations": {
     "unicode_decimal": [
       1084,
@@ -12,8 +11,9 @@
   },
   "minor_unit": {
     "name": "Qepik",
-    "size": "1/100",
-    "symbol": "qr"
+    "symbol": "qr",
+    "display": "1/100",
+    "size_to_unit": 100
   },
   "central_bank": {
     "name": "Central Bank of the Republic of Azerbaijan",
@@ -21,5 +21,11 @@
   },
   "users": [
     "Azerbaijan"
-  ]
+  ],
+  "symbol": "ман",
+  "alternate_symbols": [
+    "m",
+    "man"
+  ],
+  "iso_numeric": "944"
 }
