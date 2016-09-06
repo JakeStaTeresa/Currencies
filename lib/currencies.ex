@@ -43,6 +43,30 @@ defmodule Currencies do
   end
 
   @doc """
+  Returns a single currency given its currency code as a symbol
+
+  ## Examples
+    iex> Currencies.get(:aud)
+    %Currencies.Currency{alternate_symbols: ["A$"],
+    central_bank: %Currencies.CentralBank{name: "Reserve Bank of Australia",
+    url: "http://www.rba.gov.au"}, code: "AUD",
+    disambiguate_symbol: "A$", iso_numeric: "036",
+    minor_unit: %Currencies.MinorUnit{display: "1/100", name: "Cent",
+    size_to_unit: 100, symbol: "c"}, name: "Australia Dollar",
+    nicknames: ["Buck", "Dough"],
+    representations: %Currencies.Representations{html: "&#36;",
+    unicode_decimal: '$'}, symbol: "$",
+    users: ["Australia", "Christmas Island", "Cocos (Keeling) Islands",
+    "Kiribati", "Nauru", "Norfolk Island",
+    "Ashmore and Cartier Islands", "Australian Antarctic Territory",
+    "Coral Sea Islands", "Heard Island", "McDonald Islands"]}
+  """
+  def get(currency_code) when is_atom(currency_code) do
+   currency_code |> Atom.to_string
+    |> get
+  end
+
+  @doc """
   Returns a single currency given its currency code
 
   ## Examples
