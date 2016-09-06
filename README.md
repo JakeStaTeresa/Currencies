@@ -8,7 +8,7 @@ Add `currencies` to your list of dependencies in `mix.exs`:
 
 ```elixir
 def deps do
-  [{:currencies, "~> 0.3.0"}]
+  [{:currencies, "~> 0.3.1"}]
 end
 ```
 
