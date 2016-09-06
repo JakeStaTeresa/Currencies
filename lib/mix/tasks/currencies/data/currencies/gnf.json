@@ -3,7 +3,8 @@
   "name": "Guinea Franc",
   "minor_unit": {
     "name": "Centime",
-    "size": "1/100"
+    "display": "1/100",
+    "size_to_unit": 100
   },
   "central_bank": {
     "name": "Central Bank of the Republic of Guinea",
@@ -11,5 +12,11 @@
   },
   "users": [
     "Guinea"
-  ]
+  ],
+  "alternate_symbols": [
+    "FG",
+    "GFr"
+  ],
+  "iso_numeric": "324",
+  "disambiguate_symbol": "FG"
 }

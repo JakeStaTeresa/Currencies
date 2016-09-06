@@ -2,7 +2,6 @@
   "name": "Chile Peso",
   "code": "CLP",
   "description": "Standard dollar sign is generally used to signify peso amounts.",
-  "display": "$",
   "representations": {
     "unicode_decimal": [
       36
@@ -11,7 +10,8 @@
   },
   "minor_unit": {
     "name": "Centavo",
-    "size": "1/100"
+    "display": "1/100",
+    "size_to_unit": 100
   },
   "central_bank": {
     "name": "Banco Central De Chile",
@@ -19,5 +19,8 @@
   },
   "users": [
     "Chile"
-  ]
+  ],
+  "symbol": "$",
+  "iso_numeric": "152",
+  "disambiguate_symbol": "CLP"
 }

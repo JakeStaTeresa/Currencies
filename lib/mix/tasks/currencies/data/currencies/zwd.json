@@ -1,7 +1,6 @@
 {
   "name": "Zimbabwe Dollar",
   "code": "ZWD",
-  "display": "Z$",
   "representations": {
     "unicode_decimal": [
       90,
@@ -11,7 +10,8 @@
   },
   "minor_unit": {
     "name": "Cent",
-    "size": "1/100"
+    "display": "1/100",
+    "size_to_unit": 100
   },
   "central_bank": {
     "name": "Reserve Bank of Zimbabwe",
@@ -19,5 +19,6 @@
   },
   "users": [
     "Zimbabwe"
-  ]
+  ],
+  "symbol": "Z$"
 }

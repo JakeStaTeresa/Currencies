@@ -3,7 +3,8 @@
   "name": "Swaziland Lilangeni",
   "minor_unit": {
     "name": "Cent",
-    "size": "1/100"
+    "display": "1/100",
+    "size_to_unit": 100
   },
   "central_bank": {
     "name": "Central Bank of Swaziland",
@@ -11,5 +12,7 @@
   },
   "users": [
     "Swaziland"
-  ]
+  ],
+  "iso_numeric": "748",
+  "disambiguate_symbol": "SZL"
 }

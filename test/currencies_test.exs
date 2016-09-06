@@ -31,11 +31,13 @@ defmodule CurrenciesTest do
     assert currency != nil
     assert currency.code == "AMD"
     assert currency.name == "Armenia Dram"
+    assert currency.iso_numeric == "051"
     assert currency.__struct__ == Currencies.Currency
 
     assert currency.minor_unit != nil
     assert currency.minor_unit.name == "Luma"
-    assert currency.minor_unit.size == "1/100"
+    assert currency.minor_unit.size_to_unit == 100
+    assert currency.minor_unit.display == "1/100"
     assert currency.minor_unit.__struct__ == Currencies.MinorUnit
 
     assert currency.central_bank != nil
@@ -46,6 +48,10 @@ defmodule CurrenciesTest do
     assert is_list(currency.users)
     assert Enum.count(currency.users) == 1
     assert Enum.at(currency.users, 0, nil) == "Armenia"
+
+    assert is_list(currency.alternate_symbols)
+    assert Enum.count(currency.alternate_symbols) == 1
+    assert Enum.at(currency.alternate_symbols, 0, nil) == "dram"
   end
 
   test "get returns a currency with unicode display symbol and representations" do
@@ -53,7 +59,7 @@ defmodule CurrenciesTest do
     assert currency != nil
     assert currency.code == "AZN"
     assert currency.name == "Azerbaijan New Manat"
-    assert currency.display == "ман"
+    assert currency.symbol == "ман"
     assert currency.__struct__ == Currencies.Currency
 
     assert currency.representations != nil
@@ -71,7 +77,8 @@ defmodule CurrenciesTest do
 
     assert currency.minor_unit != nil
     assert currency.minor_unit.name == "Cent"
-    assert currency.minor_unit.size == "1/100"
+    assert currency.minor_unit.size_to_unit == 100
+    assert currency.minor_unit.display == "1/100"
     assert currency.minor_unit.symbol == "¢"
     assert currency.minor_unit.__struct__ == Currencies.MinorUnit
   end

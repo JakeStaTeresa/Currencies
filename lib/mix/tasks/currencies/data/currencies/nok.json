@@ -1,7 +1,6 @@
 {
   "name": "Norway Krone",
   "code": "NOK",
-  "display": "kr",
   "representations": {
     "unicode_decimal": [
       107,
@@ -11,7 +10,8 @@
   },
   "minor_unit": {
     "name": "øre",
-    "size": "1/100"
+    "display": "1/100",
+    "size_to_unit": 100
   },
   "central_bank": {
     "name": "Norges Bank",
@@ -24,5 +24,11 @@
     "Jan Mayen",
     "Queen Maud Land",
     "Peter I Island"
-  ]
+  ],
+  "symbol": "kr",
+  "alternate_symbols": [
+    ",-"
+  ],
+  "iso_numeric": "578",
+  "disambiguate_symbol": "NOK"
 }

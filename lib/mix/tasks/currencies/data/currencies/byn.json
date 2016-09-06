@@ -1,7 +1,6 @@
 {
   "name": "Belarus Ruble",
   "code": "BYN",
-  "display": "Br",
   "representations": {
     "unicode_decimal": [
       66,
@@ -11,7 +10,8 @@
   },
   "minor_unit": {
     "name": "Kapeyka",
-    "size": "1/100"
+    "display": "1/100",
+    "size_to_unit": 100
   },
   "central_bank": {
     "name": "National Bank of the Republic of Belarus",
@@ -19,5 +19,14 @@
   },
   "users": [
     "Belarus"
-  ]
+  ],
+  "symbol": "Br",
+  "alternate_symbols": [
+    "бел. руб.",
+    "б.р.",
+    "руб.",
+    "р."
+  ],
+  "iso_numeric": "933",
+  "disambiguate_symbol": "BYN"
 }

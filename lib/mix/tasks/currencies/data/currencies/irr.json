@@ -1,7 +1,6 @@
 {
   "name": "Iran Rial",
   "code": "IRR",
-  "display": "﷼",
   "representations": {
     "unicode_decimal": [
       65020
@@ -10,7 +9,8 @@
   },
   "minor_unit": {
     "name": "Dinar",
-    "size": "1/100"
+    "display": "1/100",
+    "size_to_unit": 100
   },
   "central_bank": {
     "name": "Central Bank of the Islamic Republic of Iran",
@@ -18,5 +18,7 @@
   },
   "users": [
     "Iran"
-  ]
+  ],
+  "symbol": "﷼",
+  "iso_numeric": "364"
 }

@@ -3,9 +3,14 @@
   "name": "Macau Pataca",
   "minor_unit": {
     "name": "Ho",
-    "size": "1/10"
+    "display": "1/10",
+    "size_to_unit": 10
   },
   "users": [
     "Macau"
-  ]
+  ],
+  "alternate_symbols": [
+    "MOP$"
+  ],
+  "iso_numeric": "446"
 }

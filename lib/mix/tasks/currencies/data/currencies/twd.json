@@ -2,7 +2,6 @@
   "name": "Taiwan New Dollar",
   "code": "TWD",
   "description": "Unconfirmed.",
-  "display": "NT$",
   "representations": {
     "unicode_decimal": [
       78,
@@ -13,8 +12,9 @@
   },
   "minor_unit": {
     "name": "Jiao",
-    "size": "1/10",
-    "symbol": "角"
+    "symbol": "角",
+    "display": "1/10",
+    "size_to_unit": 10
   },
   "central_bank": {
     "name": "Central Bank of the Republic of China (Taiwan)",
@@ -27,5 +27,11 @@
   ],
   "users": [
     "Taiwan"
-  ]
+  ],
+  "symbol": "NT$",
+  "alternate_symbols": [
+    "NT$"
+  ],
+  "iso_numeric": "901",
+  "disambiguate_symbol": "NT$"
 }

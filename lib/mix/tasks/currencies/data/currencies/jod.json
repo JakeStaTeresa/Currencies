@@ -3,7 +3,8 @@
   "name": "Jordan Dinar",
   "minor_unit": {
     "name": "Qirsh",
-    "size": "1/100"
+    "display": "1/100",
+    "size_to_unit": 100
   },
   "central_bank": {
     "name": "Central Bank of Jordan",
@@ -11,5 +12,9 @@
   },
   "users": [
     "Jordan"
-  ]
+  ],
+  "alternate_symbols": [
+    "JD"
+  ],
+  "iso_numeric": "400"
 }

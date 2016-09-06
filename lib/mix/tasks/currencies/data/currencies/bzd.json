@@ -1,7 +1,6 @@
 {
   "name": "Belize Dollar",
   "code": "BZD",
-  "display": "BZ$",
   "representations": {
     "unicode_decimal": [
       66,
@@ -12,7 +11,8 @@
   },
   "minor_unit": {
     "name": "Cent",
-    "size": "1/100"
+    "display": "1/100",
+    "size_to_unit": 100
   },
   "central_bank": {
     "name": "Central Bank of Belize",
@@ -20,5 +20,11 @@
   },
   "users": [
     "Belize"
-  ]
+  ],
+  "symbol": "BZ$",
+  "alternate_symbols": [
+    "BZ$"
+  ],
+  "iso_numeric": "084",
+  "disambiguate_symbol": "BZ$"
 }

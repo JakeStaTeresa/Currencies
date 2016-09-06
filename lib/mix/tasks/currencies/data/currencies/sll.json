@@ -3,8 +3,9 @@
   "name": "Sierra Leone Leone",
   "minor_unit": {
     "name": "Cent",
-    "size": "1/100",
-    "symbol": "c"
+    "symbol": "c",
+    "display": "1/100",
+    "size_to_unit": 100
   },
   "central_bank": {
     "name": "Bank of Sierra Leone",
@@ -12,5 +13,6 @@
   },
   "users": [
     "Sierra Leone"
-  ]
+  ],
+  "iso_numeric": "694"
 }

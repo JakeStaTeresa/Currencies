@@ -1,9 +1,10 @@
 {
-  "code": "SPL*",
+  "code": "SPL",
   "name": "Seborga Luigino",
   "minor_unit": {
     "name": "Centesimo",
-    "size": "1/100"
+    "display": "1/100",
+    "size_to_unit": 100
   },
   "users": [
     "Seborga"

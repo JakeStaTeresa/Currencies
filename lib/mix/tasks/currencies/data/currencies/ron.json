@@ -1,7 +1,6 @@
 {
   "name": "Romania New Leu",
   "code": "RON",
-  "display": "lei",
   "representations": {
     "unicode_decimal": [
       108,
@@ -12,7 +11,8 @@
   },
   "minor_unit": {
     "name": "Bani",
-    "size": "1/100"
+    "display": "1/100",
+    "size_to_unit": 100
   },
   "central_bank": {
     "name": "National Bank of Romania",
@@ -20,5 +20,7 @@
   },
   "users": [
     "Romania"
-  ]
+  ],
+  "symbol": "lei",
+  "iso_numeric": "946"
 }

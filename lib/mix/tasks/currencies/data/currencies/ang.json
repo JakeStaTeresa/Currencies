@@ -1,7 +1,6 @@
 {
   "name": "Netherlands Antilles Guilder",
   "code": "ANG",
-  "display": "ƒ",
   "representations": {
     "unicode_decimal": [
       402
@@ -15,5 +14,12 @@
     "Saba",
     "Sint Eustatius",
     "Sint Maarten"
-  ]
+  ],
+  "symbol": "ƒ",
+  "alternate_symbols": [
+    "NAƒ",
+    "NAf",
+    "f"
+  ],
+  "iso_numeric": "532"
 }

@@ -3,7 +3,8 @@
   "name": "Iraq Dinar",
   "minor_unit": {
     "name": "fils",
-    "size": "1/1000"
+    "display": "1/1000",
+    "size_to_unit": 1000
   },
   "central_bank": {
     "name": "Central Bank of Iraq",
@@ -11,5 +12,6 @@
   },
   "users": [
     "Iraq"
-  ]
+  ],
+  "iso_numeric": "368"
 }

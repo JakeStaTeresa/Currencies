@@ -1,7 +1,6 @@
 {
   "name": "Bermuda Dollar",
   "code": "BMD",
-  "display": "$",
   "representations": {
     "unicode_decimal": [
       36
@@ -14,5 +13,11 @@
   },
   "users": [
     "Bermuda"
-  ]
+  ],
+  "symbol": "$",
+  "alternate_symbols": [
+    "BD$"
+  ],
+  "iso_numeric": "060",
+  "disambiguate_symbol": "BD$"
 }

@@ -1,7 +1,6 @@
 {
   "name": "Switzerland Franc",
   "code": "CHF",
-  "display": "CHF",
   "representations": {
     "unicode_decimal": [
       67,
@@ -12,8 +11,9 @@
   },
   "minor_unit": {
     "name": "Rappen (German), centime (French), centesimo (Italian), and rap (Romansh)",
-    "size": "1/100",
-    "symbol": "Rp."
+    "symbol": "Rp.",
+    "display": "1/100",
+    "size_to_unit": 100
   },
   "central_bank": {
     "name": "Swiss National Bank",
@@ -30,5 +30,11 @@
     "Liechtenstein",
     "Campione d'Italia",
     "Büsingen am Hochrhein"
-  ]
+  ],
+  "symbol": "CHF",
+  "alternate_symbols": [
+    "SFr",
+    "Fr"
+  ],
+  "iso_numeric": "756"
 }

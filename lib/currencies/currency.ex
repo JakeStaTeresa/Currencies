@@ -13,16 +13,19 @@ defmodule Currencies.Currency do
    * `:users` - contains places or countries using the currency
   """
 
-  defstruct [:code, :name, :display, :representations, :minor_unit, :central_bank, :nicknames, :users]
+  defstruct [:code, :name, :symbol, :iso_numeric, :disambiguate_symbol, :alternate_symbols, :representations, :minor_unit, :central_bank, :nicknames, :users]
 
   @type t :: %__MODULE__{
-            code: String.t ,
-            name: String.t ,
-            display: String.t ,
-            representations: Currencies.Representations.t ,
-            minor_unit: Currencies.MinorUnit.t ,
-            central_bank: Currencies.CentralBank.t ,
-            nicknames: [String.t] ,
+            code: String.t,
+            name: String.t,
+            symbol: String.t,
+            iso_numeric: String.t,
+            disambiguate_symbol: String.t,
+            alternate_symbols: [String.t],
+            representations: Currencies.Representations.t,
+            minor_unit: Currencies.MinorUnit.t,
+            central_bank: Currencies.CentralBank.t,
+            nicknames: [String.t],
             users: [String.t]
           }
 end

@@ -3,7 +3,8 @@
   "name": "Comptoirs Français du Pacifique (CFP) Franc",
   "minor_unit": {
     "name": "Centime",
-    "size": "1/100"
+    "display": "1/100",
+    "size_to_unit": 100
   },
   "central_bank": {
     "name": "Institut d’émission d’Outre-Mer",
@@ -14,5 +15,9 @@
     "French Polynesia",
     "New Caledonia",
     "Wallis and Futuna Islands"
-  ]
+  ],
+  "alternate_symbols": [
+    "F"
+  ],
+  "iso_numeric": "953"
 }

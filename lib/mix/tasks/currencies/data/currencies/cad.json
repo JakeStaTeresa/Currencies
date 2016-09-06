@@ -1,7 +1,6 @@
 {
   "name": "Canada Dollar",
   "code": "CAD",
-  "display": "$",
   "representations": {
     "unicode_decimal": [
       36
@@ -10,8 +9,9 @@
   },
   "minor_unit": {
     "name": "Cent",
-    "size": "1/100",
-    "symbol": "¢"
+    "symbol": "¢",
+    "display": "1/100",
+    "size_to_unit": 100
   },
   "central_bank": {
     "name": "Bank of Canada",
@@ -25,5 +25,12 @@
   ],
   "users": [
     "Canada"
-  ]
+  ],
+  "symbol": "$",
+  "alternate_symbols": [
+    "C$",
+    "CAD$"
+  ],
+  "iso_numeric": "124",
+  "disambiguate_symbol": "C$"
 }

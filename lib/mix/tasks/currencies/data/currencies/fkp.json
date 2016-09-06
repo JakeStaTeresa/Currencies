@@ -1,7 +1,6 @@
 {
   "name": "Falkland Islands (Malvinas) Pound",
   "code": "FKP",
-  "display": "£",
   "representations": {
     "unicode_decimal": [
       163
@@ -10,10 +9,17 @@
   },
   "minor_unit": {
     "name": "Pence",
-    "size": "1/100",
-    "symbol": "p"
+    "symbol": "p",
+    "display": "1/100",
+    "size_to_unit": 100
   },
   "users": [
     "Falkland Islands (Malvinas)"
-  ]
+  ],
+  "symbol": "£",
+  "alternate_symbols": [
+    "FK£"
+  ],
+  "iso_numeric": "238",
+  "disambiguate_symbol": "FK£"
 }

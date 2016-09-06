@@ -1,7 +1,6 @@
 {
   "name": "Hungary Forint",
   "code": "HUF",
-  "display": "Ft",
   "representations": {
     "unicode_decimal": [
       70,
@@ -11,7 +10,8 @@
   },
   "minor_unit": {
     "name": "Fillér",
-    "size": "1/100"
+    "display": "1/100",
+    "size_to_unit": 100
   },
   "central_bank": {
     "name": "Hungarian National Bank",
@@ -19,5 +19,7 @@
   },
   "users": [
     "Hungary"
-  ]
+  ],
+  "symbol": "Ft",
+  "iso_numeric": "348"
 }

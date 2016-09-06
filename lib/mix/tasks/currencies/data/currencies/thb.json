@@ -1,7 +1,6 @@
 {
   "name": "Thailand Baht",
   "code": "THB",
-  "display": "฿",
   "representations": {
     "unicode_decimal": [
       3647
@@ -10,7 +9,8 @@
   },
   "minor_unit": {
     "name": "Satang",
-    "size": "1/100"
+    "display": "1/100",
+    "size_to_unit": 100
   },
   "central_bank": {
     "name": "Bank of Thailand",
@@ -18,5 +18,7 @@
   },
   "users": [
     "Thailand"
-  ]
+  ],
+  "symbol": "฿",
+  "iso_numeric": "764"
 }

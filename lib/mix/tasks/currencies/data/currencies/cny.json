@@ -2,7 +2,6 @@
   "name": "China Yuan Renminbi",
   "code": "CNY",
   "description": "Same symbol as JPY Japan Yen.",
-  "display": "¥",
   "representations": {
     "unicode_decimal": [
       165
@@ -11,8 +10,9 @@
   },
   "minor_unit": {
     "name": "Jiao",
-    "size": "1/10",
-    "symbol": "角"
+    "symbol": "角",
+    "display": "1/10",
+    "size_to_unit": 10
   },
   "central_bank": {
     "name": "People's Bank of China",
@@ -24,5 +24,12 @@
   ],
   "users": [
     "China"
-  ]
+  ],
+  "symbol": "¥",
+  "alternate_symbols": [
+    "CN¥",
+    "元",
+    "CN元"
+  ],
+  "iso_numeric": "156"
 }

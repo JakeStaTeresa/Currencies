@@ -1,7 +1,6 @@
 {
   "name": "Poland Zloty",
   "code": "PLN",
-  "display": "zł",
   "representations": {
     "unicode_decimal": [
       122,
@@ -11,8 +10,9 @@
   },
   "minor_unit": {
     "name": "Grosze/Groszey",
-    "size": "1/100",
-    "symbol": "gr"
+    "symbol": "gr",
+    "display": "1/100",
+    "size_to_unit": 100
   },
   "central_bank": {
     "name": "National Bank of Poland",
@@ -20,5 +20,7 @@
   },
   "users": [
     "Poland"
-  ]
+  ],
+  "symbol": "zł",
+  "iso_numeric": "985"
 }

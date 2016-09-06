@@ -3,7 +3,8 @@
   "name": "Tonga Pa'anga",
   "minor_unit": {
     "name": "Seniti",
-    "size": "1/100"
+    "display": "1/100",
+    "size_to_unit": 100
   },
   "central_bank": {
     "name": "National Reserve Bank of Tonga",
@@ -11,5 +12,9 @@
   },
   "users": [
     "Tonga"
-  ]
+  ],
+  "alternate_symbols": [
+    "PT"
+  ],
+  "iso_numeric": "776"
 }

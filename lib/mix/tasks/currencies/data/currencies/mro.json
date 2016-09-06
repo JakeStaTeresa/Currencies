@@ -3,7 +3,8 @@
   "name": "Mauritania Ouguiya",
   "minor_unit": {
     "name": "Khoums",
-    "size": "1/100"
+    "display": "1/100",
+    "size_to_unit": 100
   },
   "central_bank": {
     "name": "Bangque Centrale de Mauritanie",
@@ -11,5 +12,6 @@
   },
   "users": [
     "Mauritania"
-  ]
+  ],
+  "iso_numeric": "478"
 }

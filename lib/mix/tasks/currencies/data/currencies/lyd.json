@@ -3,7 +3,8 @@
   "name": "Libya Dinar",
   "minor_unit": {
     "name": "Dirham",
-    "size": "1/1000"
+    "display": "1/1000",
+    "size_to_unit": 1000
   },
   "central_bank": {
     "name": "Central Bank of Libya",
@@ -11,5 +12,9 @@
   },
   "users": [
     "Libya"
-  ]
+  ],
+  "alternate_symbols": [
+    "LD"
+  ],
+  "iso_numeric": "434"
 }

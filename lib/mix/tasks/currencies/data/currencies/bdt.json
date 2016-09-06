@@ -3,7 +3,8 @@
   "name": "Bangladesh Taka",
   "minor_unit": {
     "name": "Poisha",
-    "size": "1/100"
+    "display": "1/100",
+    "size_to_unit": 100
   },
   "central_bank": {
     "name": "Bangladesh Bank",
@@ -11,5 +12,9 @@
   },
   "users": [
     "Bangladesh"
-  ]
+  ],
+  "alternate_symbols": [
+    "Tk"
+  ],
+  "iso_numeric": "050"
 }

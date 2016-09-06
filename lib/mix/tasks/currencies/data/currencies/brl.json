@@ -2,7 +2,6 @@
   "name": "Brazil Real",
   "code": "BRL",
   "description": "This symbol is composed of two sequential characters: an upper case \"R\" followed by standard dollar sign \"$\"",
-  "display": "R$",
   "representations": {
     "unicode_decimal": [
       82,
@@ -12,7 +11,8 @@
   },
   "minor_unit": {
     "name": "Centavo",
-    "size": "1/100"
+    "display": "1/100",
+    "size_to_unit": 100
   },
   "central_bank": {
     "name": "Banco Central Do Brasil",
@@ -23,5 +23,7 @@
   ],
   "users": [
     "Brazil"
-  ]
+  ],
+  "symbol": "R$",
+  "iso_numeric": "986"
 }

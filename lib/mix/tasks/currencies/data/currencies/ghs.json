@@ -1,7 +1,6 @@
 {
   "name": "Ghana Cedi",
   "code": "GHS",
-  "display": "¢",
   "representations": {
     "unicode_decimal": [
       162
@@ -10,8 +9,9 @@
   },
   "minor_unit": {
     "name": "Ghana Pesewa",
-    "size": "1/100",
-    "symbol": "Gp"
+    "symbol": "Gp",
+    "display": "1/100",
+    "size_to_unit": 100
   },
   "central_bank": {
     "name": "Bank of Ghana",
@@ -19,5 +19,11 @@
   },
   "users": [
     "Ghana"
-  ]
+  ],
+  "symbol": "¢",
+  "alternate_symbols": [
+    "GH¢",
+    "GH₵"
+  ],
+  "iso_numeric": "936"
 }

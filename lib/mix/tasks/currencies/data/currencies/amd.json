@@ -3,7 +3,8 @@
   "name": "Armenia Dram",
   "minor_unit": {
     "name": "Luma",
-    "size": "1/100"
+    "display": "1/100",
+    "size_to_unit": 100
   },
   "central_bank": {
     "name": "Central Bank of Armenia",
@@ -11,5 +12,9 @@
   },
   "users": [
     "Armenia"
-  ]
+  ],
+  "alternate_symbols": [
+    "dram"
+  ],
+  "iso_numeric": "051"
 }

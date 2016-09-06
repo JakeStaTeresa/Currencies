@@ -3,7 +3,8 @@
   "name": "Georgia Lari",
   "minor_unit": {
     "name": "Tetri",
-    "size": "1/100"
+    "display": "1/100",
+    "size_to_unit": 100
   },
   "central_bank": {
     "name": "National Bank of Georgia",
@@ -11,5 +12,9 @@
   },
   "users": [
     "Georgia"
-  ]
+  ],
+  "alternate_symbols": [
+    "lari"
+  ],
+  "iso_numeric": "981"
 }

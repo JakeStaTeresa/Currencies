@@ -3,7 +3,8 @@
   "name": "Cape Verde Escudo",
   "minor_unit": {
     "name": "Centavo (discontinued)",
-    "size": "1/100"
+    "display": "1/100",
+    "size_to_unit": 100
   },
   "central_bank": {
     "name": "Bank of Cape Verde",
@@ -11,5 +12,10 @@
   },
   "users": [
     "Cape Verde"
-  ]
+  ],
+  "alternate_symbols": [
+    "Esc"
+  ],
+  "iso_numeric": "132",
+  "disambiguate_symbol": "Esc"
 }

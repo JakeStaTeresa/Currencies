@@ -1,7 +1,6 @@
 {
   "name": "Indonesia Rupiah",
   "code": "IDR",
-  "display": "Rp",
   "representations": {
     "unicode_decimal": [
       82,
@@ -11,7 +10,8 @@
   },
   "minor_unit": {
     "name": "Sen (obsolete)",
-    "size": "1/100"
+    "display": "1/100",
+    "size_to_unit": 100
   },
   "central_bank": {
     "name": "Central Bank of Republic of Indonesia",
@@ -20,5 +20,7 @@
   "users": [
     "Indonesia",
     "East Timor"
-  ]
+  ],
+  "symbol": "Rp",
+  "iso_numeric": "360"
 }

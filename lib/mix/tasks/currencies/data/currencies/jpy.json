@@ -2,7 +2,6 @@
   "name": "Japan Yen",
   "code": "JPY",
   "description": "Same symbol as CNY China Yuan Renminbi.",
-  "display": "¥",
   "representations": {
     "unicode_decimal": [
       165
@@ -11,8 +10,9 @@
   },
   "minor_unit": {
     "name": "Sen",
-    "size": "1/100",
-    "symbol": "sen"
+    "symbol": "sen",
+    "display": "1/100",
+    "size_to_unit": 100
   },
   "central_bank": {
     "name": "Bank of Japan",
@@ -20,5 +20,11 @@
   },
   "users": [
     "Japan"
-  ]
+  ],
+  "symbol": "¥",
+  "alternate_symbols": [
+    "円",
+    "圓"
+  ],
+  "iso_numeric": "392"
 }

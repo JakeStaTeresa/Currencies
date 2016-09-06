@@ -1,7 +1,6 @@
 {
   "name": "Cuba Peso",
   "code": "CUP",
-  "display": "₱",
   "representations": {
     "unicode_decimal": [
       8369
@@ -10,8 +9,9 @@
   },
   "minor_unit": {
     "name": "Centavo",
-    "size": "1/100",
-    "symbol": "¢"
+    "symbol": "¢",
+    "display": "1/100",
+    "size_to_unit": 100
   },
   "central_bank": {
     "name": "",
@@ -19,5 +19,11 @@
   },
   "users": [
     "Cuba"
-  ]
+  ],
+  "symbol": "₱",
+  "alternate_symbols": [
+    "$MN"
+  ],
+  "iso_numeric": "192",
+  "disambiguate_symbol": "$MN"
 }

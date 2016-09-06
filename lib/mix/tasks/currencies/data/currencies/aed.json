@@ -3,8 +3,9 @@
   "name": "United Arab Emirates Dirham",
   "minor_unit": {
     "name": "fils",
-    "size": "1/100",
-    "symbol": "فلس"
+    "symbol": "فلس",
+    "display": "1/100",
+    "size_to_unit": 100
   },
   "central_bank": {
     "name": "Central Bank of the UAE",
@@ -12,5 +13,10 @@
   },
   "users": [
     "United Arab Emirates"
-  ]
+  ],
+  "alternate_symbols": [
+    "DH",
+    "Dhs"
+  ],
+  "iso_numeric": "784"
 }

@@ -3,8 +3,9 @@
   "name": "Kenya Shilling",
   "minor_unit": {
     "name": "Cent",
-    "size": "1/100",
-    "symbol": "c"
+    "symbol": "c",
+    "display": "1/100",
+    "size_to_unit": 100
   },
   "central_bank": {
     "name": "Central Bank of Kenya",
@@ -15,5 +16,9 @@
   ],
   "users": [
     "Kenya"
-  ]
+  ],
+  "alternate_symbols": [
+    "Sh"
+  ],
+  "iso_numeric": "404"
 }

@@ -3,7 +3,8 @@
   "name": "Comoros Franc",
   "minor_unit": {
     "name": "Centime",
-    "size": "1/100"
+    "display": "1/100",
+    "size_to_unit": 100
   },
   "central_bank": {
     "name": "Banque Centrale des Comores",
@@ -11,5 +12,10 @@
   },
   "users": [
     "Comoros"
-  ]
+  ],
+  "alternate_symbols": [
+    "CF"
+  ],
+  "iso_numeric": "174",
+  "disambiguate_symbol": "CF"
 }

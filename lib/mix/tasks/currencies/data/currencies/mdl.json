@@ -3,7 +3,8 @@
   "name": "Moldova Leu",
   "minor_unit": {
     "name": "Ban",
-    "size": "1/100"
+    "display": "1/100",
+    "size_to_unit": 100
   },
   "central_bank": {
     "name": "National Bank of Moldova",
@@ -11,5 +12,9 @@
   },
   "users": [
     "Moldova"
-  ]
+  ],
+  "alternate_symbols": [
+    "lei"
+  ],
+  "iso_numeric": "498"
 }
