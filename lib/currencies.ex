@@ -3,6 +3,12 @@ defmodule Currencies do
   Specialized functions that return Currencies.
   """
 
+  # Pre-loads currency data at compile time
+  @currencies Path.join("data", "currencies.bin") |>
+    Path.expand(__DIR__) |>
+    File.read! |>
+    :erlang.binary_to_term
+
   @doc """
   Returns all currencies matching the given predicate
 
@@ -33,9 +39,7 @@ defmodule Currencies do
     162
   """
   def all do
-    data_path("currencies.bin") |>
-      File.read! |>
-      :erlang.binary_to_term
+    @currencies
   end
 
   @doc """
@@ -57,10 +61,5 @@ defmodule Currencies do
   def get(currency_code) when is_binary(currency_code) do
       filter(&(String.downcase(&1.code) == String.downcase(currency_code))) |>
         Enum.at(0, :not_found)
-  end
-
-  defp data_path(path) when is_binary(path) do
-    Path.join("data", path) |>
-      Path.expand(__DIR__)
   end
 end
