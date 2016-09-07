@@ -14,15 +14,15 @@ defmodule Currencies do
   end
 
   load_currency = fn(currency_code) ->
-      data_path.(Path.join("currencies", String.downcase(currency_code) <> ".json")) |>
-      File.read! |>
-      Poison.decode!(as: %Currency{representations: %Representations{}, minor_unit: %MinorUnit{}, central_bank: %CentralBank{}})
+      data_path.(Path.join("currencies", String.downcase(currency_code) <> ".json"))
+        |> File.read!
+        |> Poison.decode!(as: %Currency{representations: %Representations{}, minor_unit: %MinorUnit{}, central_bank: %CentralBank{}})
   end
 
-  @currencies data_path.("currencies.json") |>
-      File.read! |>
-      Poison.decode!(as: [ %Currency{} ]) |>
-      Enum.map(&(load_currency.(&1.code)))
+  @currencies data_path.("currencies.json")
+    |> File.read!
+    |> Poison.decode!(as: [ %Currency{} ])
+    |> Enum.map(&(load_currency.(&1.code)))
 
   @doc """
   Returns all currencies matching the given predicate
@@ -42,8 +42,7 @@ defmodule Currencies do
 
   """
   def filter(predicate) when is_function(predicate, 1) do
-    all |>
-      Enum.filter(predicate)
+    all |> Enum.filter(predicate)
   end
 
   @doc """
@@ -55,6 +54,18 @@ defmodule Currencies do
   """
   def all do
     @currencies
+  end
+
+  def get(currency_codes) when is_list(currency_codes) and is_atom(hd(currency_codes)) do
+    currency_codes
+      |> Enum.map(&Atom.to_string/1)
+      |> get
+  end
+
+  def get(currency_codes) when is_list(currency_codes) and is_binary(hd(currency_codes)) do
+    currency_codes
+    |> Enum.dedup
+    |> Enum.map(&get/1)
   end
 
   @doc """
@@ -70,14 +81,15 @@ defmodule Currencies do
     size_to_unit: 100, symbol: "c"}, name: "Australia Dollar",
     nicknames: ["Buck", "Dough"],
     representations: %Currencies.Representations{html: "&#36;",
-    unicode_decimal: '$'}, symbol: "$",
+    unicode_decimal: [36]}, symbol: "$",
     users: ["Australia", "Christmas Island", "Cocos (Keeling) Islands",
     "Kiribati", "Nauru", "Norfolk Island",
     "Ashmore and Cartier Islands", "Australian Antarctic Territory",
     "Coral Sea Islands", "Heard Island", "McDonald Islands"]}
   """
   def get(currency_code) when is_atom(currency_code) do
-   currency_code |> Atom.to_string
+   currency_code
+    |> Atom.to_string
     |> get
   end
 
@@ -101,8 +113,8 @@ defmodule Currencies do
     "Coral Sea Islands", "Heard Island", "McDonald Islands"]}
   """
   def get(currency_code) when is_binary(currency_code) do
-      filter(&(String.downcase(&1.code) == String.downcase(currency_code))) |>
-        Enum.at(0, :not_found)
+      filter(&(String.downcase(&1.code) == String.downcase(currency_code)))
+        |> Enum.at(0, :not_found)
   end
 
 end
