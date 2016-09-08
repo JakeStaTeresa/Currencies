@@ -56,13 +56,7 @@ defmodule Currencies do
     @currencies
   end
 
-  def get(currency_codes) when is_list(currency_codes) and is_atom(hd(currency_codes)) do
-    currency_codes
-      |> Enum.map(&Atom.to_string/1)
-      |> get
-  end
-
-  def get(currency_codes) when is_list(currency_codes) and is_binary(hd(currency_codes)) do
+  def get(currency_codes) when is_list(currency_codes) do
     currency_codes
     |> Enum.dedup
     |> Enum.map(&get/1)
@@ -113,8 +107,17 @@ defmodule Currencies do
     "Coral Sea Islands", "Heard Island", "McDonald Islands"]}
   """
   def get(currency_code) when is_binary(currency_code) do
-      filter(&(String.downcase(&1.code) == String.downcase(currency_code)))
+      filter(&(String.downcase(&1.code) === String.downcase(currency_code)))
         |> Enum.at(0, :not_found)
+  end
+
+  def get(iso_numeric) when is_integer(iso_numeric) do
+      filter(&(String.to_integer(&1.iso_numeric||"-101") === iso_numeric))
+        |> Enum.at(0, :not_found)
+  end
+
+  def get(param) do
+    :not_found
   end
 
 end

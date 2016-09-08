@@ -7,7 +7,7 @@ defmodule Currencies.Representations do
    * `:html` - the html representation of the currency symbol
   """
 
-  defstruct [unicode_decimal: [], html: nil]
+  defstruct [:unicode_decimal, :html]
 
   @type t :: %__MODULE__{
                 unicode_decimal: [ integer ],
