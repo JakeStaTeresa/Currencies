@@ -8,7 +8,7 @@ Add `currencies` to your list of dependencies in `mix.exs`:
 
 ```elixir
 def deps do
-  [{:currencies, "~> 0.3.2"}]
+  [{:currencies, "~> 0.4.2"}]
 end
 ```
 
@@ -24,10 +24,26 @@ Countries.all |>
 # 162
 ```
 
+Gets all currencies matching a currency code or iso numeric code
+
+```Elixir
+Currencies.all(["aud", :sgd, 51, %{}])
+  |> Enum.map(fn(item) ->
+      case item do
+        :not_found -> :not_found
+        item -> item.name
+      end
+    end)
+# ["Australia Dollar",
+#  "Singapore Dollar",
+#  "Armenia Dram",
+#  :not_found]
+```
+
 Find currency by code.
 
 ```Elixir
-Countries.get("AUD")
+Countries.get("AUD") # Currencies.get(:aud) also supported
 # %Currencies.Currency{central_bank: %Currencies.CentralBank{name: "Reserve Bank of Australia",
 #   url: "http://www.rba.gov.au"}, code: "AUD", display: "$",
 #  minor_unit: %Currencies.MinorUnit{name: "Cent", size: "1/100", symbol: "c"},
@@ -40,10 +56,10 @@ Countries.get("AUD")
 #   "McDonald Islands"]}
 ```
 
-Find currency by code using symbol.
+Find currency by iso numeric code
 
 ```Elixir
-Countries.get(:aud)
+Countries.get(36)
 # %Currencies.Currency{central_bank: %Currencies.CentralBank{name: "Reserve Bank of Australia",
 #   url: "http://www.rba.gov.au"}, code: "AUD", display: "$",
 #  minor_unit: %Currencies.MinorUnit{name: "Cent", size: "1/100", symbol: "c"},

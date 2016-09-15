@@ -10,7 +10,7 @@ defmodule Currencies.Representations do
   defstruct [:unicode_decimal, :html]
 
   @type t :: %__MODULE__{
-                unicode_decimal: [String.t],
+                unicode_decimal: [ integer ],
                 html: String.t
             }
 end
