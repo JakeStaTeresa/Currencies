@@ -56,14 +56,36 @@ defmodule Currencies do
     @currencies
   end
 
-  def get(currency_codes) when is_list(currency_codes) do
-    currency_codes
+  @doc """
+  Returns a list of currencies given a list of composed of string/binary or atom currency codes
+  and integer iso numeric codes.
+  Returns :not_found if the a currency with the given currency code or iso numeric code can not be found.
+
+  ## Examples
+    iex> Currencies.get(:aud)
+    %Currencies.Currency{alternate_symbols: ["A$"],
+    central_bank: %Currencies.CentralBank{name: "Reserve Bank of Australia",
+    url: "http://www.rba.gov.au"}, code: "AUD",
+    disambiguate_symbol: "A$", iso_numeric: "036",
+    minor_unit: %Currencies.MinorUnit{display: "1/100", name: "Cent",
+    size_to_unit: 100, symbol: "c"}, name: "Australia Dollar",
+    nicknames: ["Buck", "Dough"],
+    representations: %Currencies.Representations{html: "&#36;",
+    unicode_decimal: [36]}, symbol: "$",
+    users: ["Australia", "Christmas Island", "Cocos (Keeling) Islands",
+    "Kiribati", "Nauru", "Norfolk Island",
+    "Ashmore and Cartier Islands", "Australian Antarctic Territory",
+    "Coral Sea Islands", "Heard Island", "McDonald Islands"]}
+  """
+  def get(currency_codes_or_iso_numeric_codes) when is_list(currency_codes_or_iso_numeric_codes) do
+    currency_codes_or_iso_numeric_codes
     |> Enum.dedup
     |> Enum.map(&get/1)
   end
 
   @doc """
-  Returns a single currency given its currency code as a symbol
+  Returns a single currency given its currency code as an atom.
+  Returns :not_found if the a currency with the given currency code can not be found.
 
   ## Examples
     iex> Currencies.get(:aud)
@@ -88,7 +110,8 @@ defmodule Currencies do
   end
 
   @doc """
-  Returns a single currency given its currency code
+  Returns a single currency given its currency code as a string/binary
+  Returns :not_found if the a currency with the given currency code can not be found.
 
   ## Examples
     iex> Currencies.get("AUD")
@@ -111,11 +134,38 @@ defmodule Currencies do
         |> Enum.at(0, :not_found)
   end
 
+  @doc """
+  Returns a single currency given its iso numeric code as an integer
+  Returns :not_found if the a currency with the given iso numeric code can not be found.
+
+  ## Examples
+    iex> Currencies.get(36)
+    %Currencies.Currency{alternate_symbols: ["A$"],
+    central_bank: %Currencies.CentralBank{name: "Reserve Bank of Australia",
+    url: "http://www.rba.gov.au"}, code: "AUD",
+    disambiguate_symbol: "A$", iso_numeric: "036",
+    minor_unit: %Currencies.MinorUnit{display: "1/100", name: "Cent",
+    size_to_unit: 100, symbol: "c"}, name: "Australia Dollar",
+    nicknames: ["Buck", "Dough"],
+    representations: %Currencies.Representations{html: "&#36;",
+    unicode_decimal: '$'}, symbol: "$",
+    users: ["Australia", "Christmas Island", "Cocos (Keeling) Islands",
+    "Kiribati", "Nauru", "Norfolk Island",
+    "Ashmore and Cartier Islands", "Australian Antarctic Territory",
+    "Coral Sea Islands", "Heard Island", "McDonald Islands"]}
+  """
   def get(iso_numeric) when is_integer(iso_numeric) do
       filter(&(String.to_integer(&1.iso_numeric||"-101") === iso_numeric))
         |> Enum.at(0, :not_found)
   end
 
+  @doc """
+  Catch all method for unsupported parameter types. Returns :not_found.
+
+  ## Examples
+    iex> Currencies.get(%{})
+    :not_found
+  """
   def get(param) do
     :not_found
   end
