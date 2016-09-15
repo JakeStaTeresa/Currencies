@@ -29,16 +29,17 @@ defmodule Currencies do
 
   ## Examples
 
-    iex> Currencies.filter(&(String.contains?(&1.name, "Peso"))) |> Enum.map(&(&1.name))
-    ["Argentina Peso",
-    "Chile Peso",
-    "Colombia Peso",
-    "Cuba Convertible Peso",
-    "Cuba Peso",
-    "Dominican Republic Peso",
-    "Mexico Peso",
-    "Philippines Peso",
-    "Uruguay Peso"]
+      iex> Currencies.filter(&(String.contains?(&1.name, "Peso")))
+      ...>   |> Enum.map(&(&1.name))
+      ["Argentina Peso",
+      "Chile Peso",
+      "Colombia Peso",
+      "Cuba Convertible Peso",
+      "Cuba Peso",
+      "Dominican Republic Peso",
+      "Mexico Peso",
+      "Philippines Peso",
+      "Uruguay Peso"]
 
   """
   def filter([]), do: []
@@ -50,8 +51,8 @@ defmodule Currencies do
   Returns all currencies
 
   ## Examples
-    iex> Currencies.all |> Enum.count
-    162
+      iex> Currencies.all |> Enum.count
+      162
   """
   def all do
     @currencies
@@ -62,37 +63,37 @@ defmodule Currencies do
   Returns :not_found if the a currency with the given currency code or iso numeric code can not be found.
 
   ## Examples
-    iex> Currencies.all(["aud", :sgd, 51, %{}])
-    [%Currencies.Currency{alternate_symbols: ["A$"],
-    central_bank: %Currencies.CentralBank{name: "Reserve Bank of Australia",
-    url: "http://www.rba.gov.au"}, code: "AUD", disambiguate_symbol: "A$",
-    iso_numeric: "036",
-    minor_unit: %Currencies.MinorUnit{display: "1/100", name: "Cent",
-    size_to_unit: 100, symbol: "c"}, name: "Australia Dollar",
-    nicknames: ["Buck", "Dough"],
-    representations: %Currencies.Representations{html: "&#36;",
-    unicode_decimal: '$'}, symbol: "$",
-    users: ["Australia", "Christmas Island", "Cocos (Keeling) Islands",
-    "Kiribati", "Nauru", "Norfolk Island", "Ashmore and Cartier Islands",
-    "Australian Antarctic Territory", "Coral Sea Islands", "Heard Island",
-    "McDonald Islands"]},
-    %Currencies.Currency{alternate_symbols: ["S$"],
-    central_bank: %Currencies.CentralBank{name: "Monetary Authority of Singapore",
-    url: "http://www.mas.gov.sg"}, code: "SGD", disambiguate_symbol: "S$",
-    iso_numeric: "702",
-    minor_unit: %Currencies.MinorUnit{display: "1/100", name: "Cent",
-    size_to_unit: 100, symbol: "S¢"}, name: "Singapore Dollar",
-    nicknames: ["Sing"],
-    representations: %Currencies.Representations{html: "&#36;",
-    unicode_decimal: '$'}, symbol: "$", users: ["Singapore"]},
-    %Currencies.Currency{alternate_symbols: ["dram"],
-    central_bank: %Currencies.CentralBank{name: "Central Bank of Armenia",
-    url: "http://www.cba.am"}, code: "AMD", disambiguate_symbol: nil,
-    iso_numeric: "051",
-    minor_unit: %Currencies.MinorUnit{display: "1/100", name: "Luma",
-    size_to_unit: 100, symbol: nil}, name: "Armenia Dram", nicknames: nil,
-    representations: %Currencies.Representations{html: nil, unicode_decimal: nil},
-    symbol: nil, users: ["Armenia"]}, :not_found]
+      iex> Currencies.all(["aud", :sgd, 51, %{}])
+      [%Currencies.Currency{alternate_symbols: ["A$"],
+      central_bank: %Currencies.CentralBank{name: "Reserve Bank of Australia",
+      url: "http://www.rba.gov.au"}, code: "AUD", disambiguate_symbol: "A$",
+      iso_numeric: "036",
+      minor_unit: %Currencies.MinorUnit{display: "1/100", name: "Cent",
+      size_to_unit: 100, symbol: "c"}, name: "Australia Dollar",
+      nicknames: ["Buck", "Dough"],
+      representations: %Currencies.Representations{html: "&#36;",
+      unicode_decimal: '$'}, symbol: "$",
+      users: ["Australia", "Christmas Island", "Cocos (Keeling) Islands",
+      "Kiribati", "Nauru", "Norfolk Island", "Ashmore and Cartier Islands",
+      "Australian Antarctic Territory", "Coral Sea Islands", "Heard Island",
+      "McDonald Islands"]},
+      %Currencies.Currency{alternate_symbols: ["S$"],
+      central_bank: %Currencies.CentralBank{name: "Monetary Authority of Singapore",
+      url: "http://www.mas.gov.sg"}, code: "SGD", disambiguate_symbol: "S$",
+      iso_numeric: "702",
+      minor_unit: %Currencies.MinorUnit{display: "1/100", name: "Cent",
+      size_to_unit: 100, symbol: "S¢"}, name: "Singapore Dollar",
+      nicknames: ["Sing"],
+      representations: %Currencies.Representations{html: "&#36;",
+      unicode_decimal: '$'}, symbol: "$", users: ["Singapore"]},
+      %Currencies.Currency{alternate_symbols: ["dram"],
+      central_bank: %Currencies.CentralBank{name: "Central Bank of Armenia",
+      url: "http://www.cba.am"}, code: "AMD", disambiguate_symbol: nil,
+      iso_numeric: "051",
+      minor_unit: %Currencies.MinorUnit{display: "1/100", name: "Luma",
+      size_to_unit: 100, symbol: nil}, name: "Armenia Dram", nicknames: nil,
+      representations: %Currencies.Representations{html: nil, unicode_decimal: nil},
+      symbol: nil, users: ["Armenia"]}, :not_found]
   """
   def all(currency_codes_or_iso_numeric_codes) when is_list(currency_codes_or_iso_numeric_codes) do
     currency_codes_or_iso_numeric_codes
@@ -105,56 +106,56 @@ defmodule Currencies do
   Returns :not_found if the a currency with the given currency code can not be found.
 
   # Get currency given its currency code as a symbol
-    iex> Currencies.get(:aud)
-    %Currencies.Currency{alternate_symbols: ["A$"],
-    central_bank: %Currencies.CentralBank{name: "Reserve Bank of Australia",
-    url: "http://www.rba.gov.au"}, code: "AUD",
-    disambiguate_symbol: "A$", iso_numeric: "036",
-    minor_unit: %Currencies.MinorUnit{display: "1/100", name: "Cent",
-    size_to_unit: 100, symbol: "c"}, name: "Australia Dollar",
-    nicknames: ["Buck", "Dough"],
-    representations: %Currencies.Representations{html: "&#36;",
-    unicode_decimal: [36]}, symbol: "$",
-    users: ["Australia", "Christmas Island", "Cocos (Keeling) Islands",
-    "Kiribati", "Nauru", "Norfolk Island",
-    "Ashmore and Cartier Islands", "Australian Antarctic Territory",
-    "Coral Sea Islands", "Heard Island", "McDonald Islands"]}
+      iex> Currencies.get(:aud)
+      %Currencies.Currency{alternate_symbols: ["A$"],
+      central_bank: %Currencies.CentralBank{name: "Reserve Bank of Australia",
+      url: "http://www.rba.gov.au"}, code: "AUD",
+      disambiguate_symbol: "A$", iso_numeric: "036",
+      minor_unit: %Currencies.MinorUnit{display: "1/100", name: "Cent",
+      size_to_unit: 100, symbol: "c"}, name: "Australia Dollar",
+      nicknames: ["Buck", "Dough"],
+      representations: %Currencies.Representations{html: "&#36;",
+      unicode_decimal: [36]}, symbol: "$",
+      users: ["Australia", "Christmas Island", "Cocos (Keeling) Islands",
+      "Kiribati", "Nauru", "Norfolk Island",
+      "Ashmore and Cartier Islands", "Australian Antarctic Territory",
+      "Coral Sea Islands", "Heard Island", "McDonald Islands"]}
 
   ## Get currency given its currency code as a string/binary
-    iex> Currencies.get("AUD")
-    %Currencies.Currency{alternate_symbols: ["A$"],
-    central_bank: %Currencies.CentralBank{name: "Reserve Bank of Australia",
-    url: "http://www.rba.gov.au"}, code: "AUD",
-    disambiguate_symbol: "A$", iso_numeric: "036",
-    minor_unit: %Currencies.MinorUnit{display: "1/100", name: "Cent",
-    size_to_unit: 100, symbol: "c"}, name: "Australia Dollar",
-    nicknames: ["Buck", "Dough"],
-    representations: %Currencies.Representations{html: "&#36;",
-    unicode_decimal: '$'}, symbol: "$",
-    users: ["Australia", "Christmas Island", "Cocos (Keeling) Islands",
-    "Kiribati", "Nauru", "Norfolk Island",
-    "Ashmore and Cartier Islands", "Australian Antarctic Territory",
-    "Coral Sea Islands", "Heard Island", "McDonald Islands"]}
+      iex> Currencies.get("AUD")
+      %Currencies.Currency{alternate_symbols: ["A$"],
+      central_bank: %Currencies.CentralBank{name: "Reserve Bank of Australia",
+      url: "http://www.rba.gov.au"}, code: "AUD",
+      disambiguate_symbol: "A$", iso_numeric: "036",
+      minor_unit: %Currencies.MinorUnit{display: "1/100", name: "Cent",
+      size_to_unit: 100, symbol: "c"}, name: "Australia Dollar",
+      nicknames: ["Buck", "Dough"],
+      representations: %Currencies.Representations{html: "&#36;",
+      unicode_decimal: '$'}, symbol: "$",
+      users: ["Australia", "Christmas Island", "Cocos (Keeling) Islands",
+      "Kiribati", "Nauru", "Norfolk Island",
+      "Ashmore and Cartier Islands", "Australian Antarctic Territory",
+      "Coral Sea Islands", "Heard Island", "McDonald Islands"]}
 
   ## Get currency given its iso numeric code as an integer
-    iex> Currencies.get(36)
-    %Currencies.Currency{alternate_symbols: ["A$"],
-    central_bank: %Currencies.CentralBank{name: "Reserve Bank of Australia",
-    url: "http://www.rba.gov.au"}, code: "AUD",
-    disambiguate_symbol: "A$", iso_numeric: "036",
-    minor_unit: %Currencies.MinorUnit{display: "1/100", name: "Cent",
-    size_to_unit: 100, symbol: "c"}, name: "Australia Dollar",
-    nicknames: ["Buck", "Dough"],
-    representations: %Currencies.Representations{html: "&#36;",
-    unicode_decimal: '$'}, symbol: "$",
-    users: ["Australia", "Christmas Island", "Cocos (Keeling) Islands",
-    "Kiribati", "Nauru", "Norfolk Island",
-    "Ashmore and Cartier Islands", "Australian Antarctic Territory",
-    "Coral Sea Islands", "Heard Island", "McDonald Islands"]}
+      iex> Currencies.get(36)
+      %Currencies.Currency{alternate_symbols: ["A$"],
+      central_bank: %Currencies.CentralBank{name: "Reserve Bank of Australia",
+      url: "http://www.rba.gov.au"}, code: "AUD",
+      disambiguate_symbol: "A$", iso_numeric: "036",
+      minor_unit: %Currencies.MinorUnit{display: "1/100", name: "Cent",
+      size_to_unit: 100, symbol: "c"}, name: "Australia Dollar",
+      nicknames: ["Buck", "Dough"],
+      representations: %Currencies.Representations{html: "&#36;",
+      unicode_decimal: '$'}, symbol: "$",
+      users: ["Australia", "Christmas Island", "Cocos (Keeling) Islands",
+      "Kiribati", "Nauru", "Norfolk Island",
+      "Ashmore and Cartier Islands", "Australian Antarctic Territory",
+      "Coral Sea Islands", "Heard Island", "McDonald Islands"]}
 
   ## Try to get a currency using an unsupported type
-    iex> Currencies.get(%{})
-    :not_found
+      iex> Currencies.get(%{})
+      :not_found
   """
   def get(currency_code) when is_atom(currency_code) do
    currency_code
