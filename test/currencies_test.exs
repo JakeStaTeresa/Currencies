@@ -9,8 +9,29 @@ defmodule CurrenciesTest do
     assert Enum.at(currencies, 0, nil).__struct__ == Currencies.Currency
   end
 
+  test "all accepts a list of currency codes or iso numeric codes and a list of currencies or :not_found" do
+    currencies = Currencies.all(["aud", :sgd, 51, %{}])
+      |> Enum.map(fn(item) ->
+          case item do
+            :not_found -> :not_found
+            item -> item.name
+          end
+        end)
+    assert Enum.count(currencies) == 4
+    assert currencies == ["Australia Dollar",
+                          "Singapore Dollar",
+                          "Armenia Dram",
+                          :not_found]
+  end
+
   test "filter returns empty when no matches are found" do
     currencies = Currencies.filter(&(String.contains?(&1.code, "OmgWtfBbq")))
+    assert is_list(currencies)
+    assert Enum.count(currencies) == 0
+  end
+
+  test "filter returns empty when empty list is passed" do
+    currencies = Currencies.filter([])
     assert is_list(currencies)
     assert Enum.count(currencies) == 0
   end
@@ -154,18 +175,4 @@ defmodule CurrenciesTest do
                                   "Teuro (German)"]
   end
 
-  test "get accepts a list of currency codes or iso numeric codes and a list of currencies or :not_found" do
-    currencies = Currencies.get(["aud", :sgd, 51, %{}])
-      |> Enum.map(fn(item) ->
-          case item do
-            :not_found -> :not_found
-            item -> item.name
-          end
-        end)
-    assert Enum.count(currencies) == 4
-    assert currencies == ["Australia Dollar",
-                          "Singapore Dollar",
-                          "Armenia Dram",
-                          :not_found]
-  end
 end
