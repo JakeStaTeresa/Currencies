@@ -174,4 +174,28 @@ defmodule Currencies do
     :not_found
   end
 
+  def minor_unit(currency_code) do
+    currency = get(currency_code)
+
+    case currency do
+      :not_found -> :not_found
+      _ ->
+        if !is_nil(currency.minor_unit) && is_map(currency.minor_unit) do
+          currency.minor_unit
+        end
+    end
+  end
+
+  def central_bank(currency_code) do
+    currency = get(currency_code)
+
+    case currency do
+      :not_found -> :not_found
+      _ ->
+        if !is_nil(currency.central_bank) && is_map(currency.central_bank) do
+          currency.central_bank
+        end
+    end
+  end
+
 end
