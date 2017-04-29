@@ -188,12 +188,12 @@ defmodule CurrenciesTest do
     assert central_bank == :not_found
   end
 
-  test "central_bank returns :not_found if central_bank does not exist" do
+  test "central_bank returns :not_found if central_bank does not exist for currency code" do
     central_bank = Currencies.central_bank("FJD")
     assert central_bank == :not_found
   end
 
-  test "minor_unit returns the name of the central bank governing the currency" do
+  test "minor_unit returns the minor_unit details of the currency" do
     minor_unit = Currencies.minor_unit("USD")
     assert minor_unit != nil
     assert minor_unit.name == "Cent"
@@ -208,7 +208,7 @@ defmodule CurrenciesTest do
     assert minor_unit == :not_found
   end
 
-  test "minor_unit returns :not_found if minor_unit does not exist" do
+  test "minor_unit returns :not_found if minor_unit does not exist for currency code" do
     minor_unit = Currencies.minor_unit("VUV")
     assert minor_unit == :not_found
   end
