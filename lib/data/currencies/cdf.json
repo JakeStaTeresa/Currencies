@@ -8,5 +8,7 @@
     "FC"
   ],
   "iso_numeric": "976",
-  "disambiguate_symbol": "FC"
+  "disambiguate_symbol": "FC",
+  "central_bank": null,
+  "minor_unit": null
 }

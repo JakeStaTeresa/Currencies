@@ -8,5 +8,7 @@
     "TD",
     "DT"
   ],
-  "iso_numeric": "788"
+  "iso_numeric": "788",
+  "central_bank": null,
+  "minor_unit": null
 }

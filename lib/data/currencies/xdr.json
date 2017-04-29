@@ -7,5 +7,7 @@
   "alternate_symbols": [
     "XDR"
   ],
-  "iso_numeric": "960"
+  "iso_numeric": "960",
+  "central_bank": null,
+  "minor_unit": null
 }

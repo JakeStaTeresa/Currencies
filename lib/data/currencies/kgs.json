@@ -15,5 +15,7 @@
   "alternate_symbols": [
     "сом"
   ],
-  "iso_numeric": "417"
+  "iso_numeric": "417",
+  "central_bank": null,
+  "minor_unit": null
 }

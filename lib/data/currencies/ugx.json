@@ -8,5 +8,6 @@
   "users": [
     "Uganda"
   ],
-  "iso_numeric": "800"
+  "iso_numeric": "800",
+  "minor_unit": null
 }

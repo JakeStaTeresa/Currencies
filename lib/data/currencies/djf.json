@@ -4,5 +4,7 @@
   "users": [
     "Djibouti"
   ],
-  "iso_numeric": "262"
+  "iso_numeric": "262",
+  "central_bank": null,
+  "minor_unit": null
 }

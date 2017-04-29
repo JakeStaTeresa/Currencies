@@ -4,5 +4,7 @@
   "users": [
     "Turkmenistan"
   ],
-  "iso_numeric": "934"
+  "iso_numeric": "934",
+  "central_bank": null,
+  "minor_unit": null
 }

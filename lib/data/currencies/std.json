@@ -5,5 +5,7 @@
     "Príncipe",
     "São Tome"
   ],
-  "iso_numeric": "678"
+  "iso_numeric": "678",
+  "central_bank": null,
+  "minor_unit": null
 }

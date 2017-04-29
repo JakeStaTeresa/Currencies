@@ -13,5 +13,7 @@
     "Panama"
   ],
   "symbol": "B/.",
-  "iso_numeric": "590"
+  "iso_numeric": "590",
+  "central_bank": null,
+  "minor_unit": null
 }

@@ -12,5 +12,7 @@
   ],
   "symbol": "$",
   "iso_numeric": "968",
-  "disambiguate_symbol": "SRD"
+  "disambiguate_symbol": "SRD",
+  "central_bank": null,
+  "minor_unit": null
 }

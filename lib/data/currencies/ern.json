@@ -4,5 +4,7 @@
   "users": [
     "Eritrea"
   ],
-  "iso_numeric": "232"
+  "iso_numeric": "232",
+  "central_bank": null,
+  "minor_unit": null
 }

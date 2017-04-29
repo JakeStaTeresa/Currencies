@@ -16,5 +16,6 @@
   "users": [
     "Jersey"
   ],
-  "symbol": "£"
+  "symbol": "£",
+  "central_bank": null
 }

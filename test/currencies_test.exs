@@ -175,4 +175,42 @@ defmodule CurrenciesTest do
                                   "Teuro (German)"]
   end
 
+  test "central_bank returns the name of the central bank governing the currency" do
+    central_bank = Currencies.central_bank("USD")
+    assert central_bank != nil
+    assert central_bank.name == "Federal Reserve Bank"
+    assert central_bank.url == "http://www.federalreserve.gov"
+    assert central_bank.__struct__ == Currencies.CentralBank
+  end
+
+  test "central_bank returns :not_found if currency code does not exist" do
+    central_bank = Currencies.central_bank("OMG")
+    assert central_bank == :not_found
+  end
+
+  test "central_bank returns :not_found if central_bank does not exist" do
+    central_bank = Currencies.central_bank("FJD")
+    assert central_bank == :not_found
+  end
+
+  test "minor_unit returns the name of the central bank governing the currency" do
+    minor_unit = Currencies.minor_unit("USD")
+    assert minor_unit != nil
+    assert minor_unit.name == "Cent"
+    assert minor_unit.display == "1/100"
+    assert minor_unit.size_to_unit == 100
+    assert minor_unit.symbol == "¢"
+    assert minor_unit.__struct__ == Currencies.MinorUnit
+  end
+
+  test "minor_unit returns :not_found if currency code does not exist" do
+    minor_unit = Currencies.minor_unit("OMG")
+    assert minor_unit == :not_found
+  end
+
+  test "minor_unit returns :not_found if minor_unit does not exist" do
+    minor_unit = Currencies.minor_unit("VUV")
+    assert minor_unit == :not_found
+  end
+
 end

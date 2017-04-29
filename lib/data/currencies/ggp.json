@@ -16,5 +16,6 @@
   "users": [
     "Guernsey"
   ],
-  "symbol": "£"
+  "symbol": "£",
+  "central_bank": null
 }

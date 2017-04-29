@@ -18,5 +18,6 @@
   ],
   "symbol": "£",
   "iso_numeric": "292",
-  "disambiguate_symbol": "GIP"
+  "disambiguate_symbol": "GIP",
+  "central_bank": null
 }

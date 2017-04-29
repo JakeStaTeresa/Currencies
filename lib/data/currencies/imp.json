@@ -16,5 +16,6 @@
   "users": [
     "Isle of Man"
   ],
-  "symbol": "£"
+  "symbol": "£",
+  "central_bank": null
 }

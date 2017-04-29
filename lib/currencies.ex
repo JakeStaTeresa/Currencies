@@ -44,7 +44,7 @@ defmodule Currencies do
   """
   def filter([]), do: []
   def filter(predicate) when is_function(predicate, 1) do
-    all |> Enum.filter(predicate)
+    all() |> Enum.filter(predicate)
   end
 
   @doc """
@@ -170,7 +170,7 @@ defmodule Currencies do
       filter(&(String.to_integer(&1.iso_numeric||"-101") === iso_numeric))
         |> Enum.at(0, :not_found)
   end
-  def get(param) do
+  def get(_param) do
     :not_found
   end
 
@@ -180,8 +180,9 @@ defmodule Currencies do
     case currency do
       :not_found -> :not_found
       _ ->
-        if !is_nil(currency.minor_unit) && is_map(currency.minor_unit) do
-          currency.minor_unit
+        case currency.minor_unit do
+          nil -> :not_found
+          minor_unit -> minor_unit
         end
     end
   end
@@ -192,8 +193,9 @@ defmodule Currencies do
     case currency do
       :not_found -> :not_found
       _ ->
-        if !is_nil(currency.central_bank) && is_map(currency.central_bank) do
-          currency.central_bank
+        case currency.central_bank do
+          nil -> :not_found
+          central_bank -> central_bank
         end
     end
   end

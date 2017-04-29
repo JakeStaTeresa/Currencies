@@ -16,5 +16,6 @@
   "users": [
     "Tuvalu"
   ],
-  "symbol": "$"
+  "symbol": "$",
+  "central_bank": null
 }

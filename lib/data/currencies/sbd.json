@@ -15,5 +15,7 @@
     "SI$"
   ],
   "iso_numeric": "090",
-  "disambiguate_symbol": "SI$"
+  "disambiguate_symbol": "SI$",
+  "central_bank": null,
+  "minor_unit": null
 }

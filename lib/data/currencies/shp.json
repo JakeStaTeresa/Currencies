@@ -18,5 +18,6 @@
   ],
   "symbol": "£",
   "iso_numeric": "654",
-  "disambiguate_symbol": "SHP"
+  "disambiguate_symbol": "SHP",
+  "central_bank": null
 }

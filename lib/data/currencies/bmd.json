@@ -19,5 +19,6 @@
     "BD$"
   ],
   "iso_numeric": "060",
-  "disambiguate_symbol": "BD$"
+  "disambiguate_symbol": "BD$",
+  "minor_unit": null
 }
