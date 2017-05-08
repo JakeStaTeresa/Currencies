@@ -9,22 +9,20 @@ defmodule Currencies do
   alias Currencies.MinorUnit
 
   # Pre-loads currency data at compile time
-  if Code.ensure_compiled(Poison) do
-    data_path = fn (path) ->
-      Path.join("data", path) |> Path.expand(__DIR__)
-    end
-
-    load_currency = fn(currency_code) ->
-        data_path.(Path.join("currencies", String.downcase(currency_code) <> ".json"))
-          |> File.read!
-          |> Poison.decode!(as: %Currency{representations: %Representations{}, minor_unit: %MinorUnit{}, central_bank: %CentralBank{}})
-    end
-
-    @currencies data_path.("currencies.json")
-      |> File.read!
-      |> Poison.decode!(as: [ %Currency{} ])
-      |> Enum.map(&(load_currency.(&1.code)))
+  data_path = fn (path) ->
+    Path.join("data", path) |> Path.expand(__DIR__)
   end
+
+  load_currency = fn(currency_code) ->
+      data_path.(Path.join("currencies", String.downcase(currency_code) <> ".json"))
+        |> File.read!
+        |> Poison.decode!(as: %Currency{representations: %Representations{}, minor_unit: %MinorUnit{}, central_bank: %CentralBank{}})
+  end
+
+  @currencies data_path.("currencies.json")
+    |> File.read!
+    |> Poison.decode!(as: [ %Currency{} ])
+    |> Enum.map(&(load_currency.(&1.code)))
   @doc """
   Returns all currencies matching the given predicate
 
