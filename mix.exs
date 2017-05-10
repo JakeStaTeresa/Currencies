@@ -3,7 +3,7 @@ defmodule Currencies.Mixfile do
 
   def project do
     [app: :currencies,
-     version: "0.4.1",
+     version: "0.5.1",
      elixir: "~> 1.3",
      build_embedded: Mix.env == :prod,
      start_permanent: Mix.env == :prod,
@@ -47,7 +47,7 @@ defmodule Currencies.Mixfile do
 
   def package do
     [ name: :currencies,
-      files: ["lib", "priv", "mix.exs", "README*", "readme*", "LICENSE*", "license*"],
+      files: ["lib", "mix.exs", "README*", "LICENSE*"],
       maintainers: ["Kriztian Jake Sta. Teresa"],
       licenses: ["MIT"],
       links: %{"Github" => "https://github.com/JakeStaTeresa/Currencies"},

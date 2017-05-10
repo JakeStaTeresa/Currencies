@@ -175,6 +175,39 @@ defmodule Currencies do
     :not_found
   end
 
+  @doc """
+  Returns the minor_unit associated with the  given currency code or iso numeric code
+  Returns :not_found if the a currency with the given currency code can not be found.
+  Returns :not_found if the a minor_unit for the currency  with the given currency code
+  can not be found.
+
+  # Get minor_unit given its currency code as a symbol
+      iex> Currencies.minor_unit(:aud)
+      %Currencies.MinorUnit{display: "1/100", name: "Cent",
+      size_to_unit: 100, symbol: "c"}
+
+  ## Get minor_unit given its currency code as a string/binary
+      iex> Currencies.minor_unit("AUD")
+      %Currencies.MinorUnit{display: "1/100", name: "Cent",
+      size_to_unit: 100, symbol: "c"}
+
+  ## Get minor_unit given its iso numeric code as an integer
+      iex> Currencies.minor_unit(36)
+      %Currencies.MinorUnit{display: "1/100", name: "Cent",
+      size_to_unit: 100, symbol: "c"}
+
+  ## Try to get a minor_unit using an unsupported type
+      iex> Currencies.minor_unit(%{})
+      :not_found
+
+  ## Try to get a minor_unit using an invalid currency code
+      iex> Currencies.minor_unit("OMG")
+      :not_found
+
+  ## Try to get a minor_unit using a currency code which does not have a minor_unit
+      iex> Currencies.minor_unit("VUV")
+      :not_found
+  """
   def minor_unit(currency_code) do
     currency = get(currency_code)
 
@@ -188,6 +221,39 @@ defmodule Currencies do
     end
   end
 
+  @doc """
+  Returns the central_bank associated with the  given currency code or iso numeric code
+  Returns :not_found if the a currency with the given currency code can not be found.
+  Returns :not_found if the a central_bank for the currency  with the given currency code
+  can not be found.
+
+  # Get central_bank given its currency code as a symbol
+      iex> Currencies.central_bank(:aud)
+      %Currencies.CentralBank{name: "Reserve Bank of Australia",
+      url: "http://www.rba.gov.au"}
+
+  ## Get central_bank given its currency code as a string/binary
+      iex> Currencies.central_bank("AUD")
+      %Currencies.CentralBank{name: "Reserve Bank of Australia",
+      url: "http://www.rba.gov.au"}
+
+  ## Get central_bank given its iso numeric code as an integer
+      iex> Currencies.central_bank(36)
+      %Currencies.CentralBank{name: "Reserve Bank of Australia",
+      url: "http://www.rba.gov.au"}
+
+  ## Try to get a central_bank using an unsupported type
+      iex> Currencies.central_bank(%{})
+      :not_found
+
+  ## Try to get a central_bank using an invalid currency code
+      iex> Currencies.central_bank("OMG")
+      :not_found
+
+  ## Try to get a central_bank using a currency code which does not have a central_bank
+      iex> Currencies.central_bank("FJD")
+      :not_found
+  """
   def central_bank(currency_code) do
     currency = get(currency_code)
 
